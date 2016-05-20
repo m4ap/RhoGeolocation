@@ -1,0 +1,1331 @@
+--------- beginning of main
+--------- beginning of system
+I/APP     ( 6018): I 05/17/2016 12:46:43:498 00001782 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onCreateApplication
+I/APP     ( 6018): I 05/17/2016 12:46:43:504 00001782    RhodesApplication| Initialized
+I/APP     ( 6018): I 05/17/2016 12:46:43:596 00001782       RhodesActivity| Config path: /storage/emulated/0/Android/data/com.rhomobile.rhogeolocation/Config.xml
+I/APP     ( 6018): I 05/17/2016 12:46:43:596 00001782       RhodesActivity| Loading Config.xml from resources
+I/APP     ( 6018): I 05/17/2016 12:46:43:921 00001782         ElementsCore| RhoElements initializing...
+I/APP     ( 6018): I 05/17/2016 12:46:44:053 00001782         ElementsCore| RhoElements initialized.
+I/APP     ( 6018): I 05/17/2016 12:46:44:055 00001782    RhoExtManagerImpl| Creating Google web view !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+I/APP     ( 6018): I 05/17/2016 12:46:44:504 00001782        GoogleWebView| Initialize Google WEbView staff
+I/APP     ( 6018): I 05/17/2016 12:46:44:514 00001782        GoogleWebView| Adding new JS interface: __rhoNativeApi
+I/APP     ( 6018): I 05/17/2016 12:46:44:514 00001782     WebViewSingleton| Set config initially: true
+I/APP     ( 6018): I 05/17/2016 12:46:44:515 00001782        GoogleWebView| applyWebSettings
+I/APP     ( 6018): I 05/17/2016 12:46:44:515 00001782        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     ( 6018): I 05/17/2016 12:46:44:518 00001782  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     ( 6018): I 05/17/2016 12:46:44:521 00001782  WebSettingsProvider| Allow universal access from file URL
+I/APP     ( 6018): I 05/17/2016 12:46:44:522 00001782        GoogleWebView| Adding new JS interface: genericImpl
+I/APP     ( 6018): I 05/17/2016 12:46:44:638 00001782        GoogleWebView| Adding new JS interface: apdImpl
+I/APP     ( 6018): I 05/17/2016 12:46:44:638 00001782        GoogleWebView| Adding new JS interface: nosipImpl
+I/APP     ( 6018): I 05/17/2016 12:46:44:638 00001782        GoogleWebView| Adding new JS interface: metaReceiver
+I/APP     ( 6018): I 05/17/2016 12:46:44:640 00001782    RhodesApplication| New UiState: MainActivityCreated
+I/APP     ( 6018): I 05/17/2016 12:46:44:641 00001782    RhodesApplication| New UiState: MainActivityStarted
+I/APP     ( 6018): I 05/17/2016 12:46:44:662 00001782         SplashScreen| Process config: zoom
+I/APP     ( 6018): I 05/17/2016 12:46:44:662 00001782         SplashScreen| Scale type: zoom
+I/APP     ( 6018): I 05/17/2016 12:46:44:662 00001782         SplashScreen| Looking for start page source
+I/APP     ( 6018): I 05/17/2016 12:46:44:662 00001782         SplashScreen| Loading image: apps/app/loading.png
+I/APP     ( 6018): I 05/17/2016 12:46:44:662 00001782         SplashScreen| Specified splashscreen image is not found or supported. Setting the default splashscreen image.
+I/APP     ( 6018): I 05/17/2016 12:46:44:706 00001782         SplashScreen| Done
+I/APP     ( 6018): I 05/17/2016 12:46:44:708 00001782    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     ( 6018): I 05/17/2016 12:46:44:711 00001782 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume
+I/APP     ( 6018): I 05/17/2016 12:46:44:711 00001782 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume--first resume
+I/APP     ( 6018): I 05/17/2016 12:46:44:742 00001782 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume-BarcodeFactory-DW-false created 
+I/APP     ( 6018): I 05/17/2016 12:46:44:759 00001782    LocalFileProvider| Revoke URI permissions: content://com.rhomobile.rhogeolocation
+I/APP     ( 6018): I 05/17/2016 12:46:44:760 00001782               Rhodes| Loading...
+I/APP     ( 6018): I 05/17/2016 12:46:44:760 00001782            RhodesApp| Trying to get free listening port.
+I/APP     ( 6018): I 05/17/2016 12:46:44:761 00001782            RhodesApp| Trying to bind of 0 port...
+I/APP     ( 6018): I 05/17/2016 12:46:44:761 00001782            RhodesApp| Got port to bind on: 40709
+I/APP     ( 6018): I 05/17/2016 12:46:44:761 00001782            RhodesApp| Free listening port: 40709
+I/APP     ( 6018): I 05/17/2016 12:46:44:761 000017da         AppCallbacks| Starting main routine...
+I/APP     ( 6018): I 05/17/2016 12:46:44:762 000017da         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 6018): I 05/17/2016 12:46:44:776 00001782            RhodesApp| callAppActiveCallback
+I/APP     ( 6018): I 05/17/2016 12:46:44:776 00001782         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     ( 6018): I 05/17/2016 12:46:44:776 000017da         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     ( 6018): I 05/17/2016 12:46:44:776 00001782         AppActivated| Cannot commit now, application will be activated when started.
+I/APP     ( 6018): I 05/17/2016 12:46:44:776 000017da         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     ( 6018): I 05/17/2016 12:46:44:776 00001782    RhodesApplication| New AppState: Undefined
+I/APP     ( 6018): I 05/17/2016 12:46:44:776 000017da         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 6018): I 05/17/2016 12:46:44:777 00001782        RhodesService| handleCommand: startId=1, source=com.rhomobile.rhodes.BaseActivity
+I/APP     ( 6018): I 05/17/2016 12:46:44:777 000017db            RhodesApp| Starting RhodesApp main routine...
+I/APP     ( 6018): I 05/17/2016 12:46:44:777 000017db            RhodesApp| Starting pure JS application...
+I/APP     ( 6018): I 05/17/2016 12:46:44:777 000017db            RhodesApp| Init_RhoBlobs:/data/data/com.rhomobile.rhogeolocation/rhodata/db/db-files
+I/APP     ( 6018): I 05/17/2016 12:46:44:784 000017db RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     ( 6018): I 05/17/2016 12:46:44:825 00001782         AppCallbacks| addCommand: UI-CREATED
+I/APP     ( 6018): I 05/17/2016 12:46:44:825 000017da         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     ( 6018): I 05/17/2016 12:46:44:825 000017da         AppCallbacks| m_uistate: 0
+I/APP     ( 6018): I 05/17/2016 12:46:44:826 000017da         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     ( 6018): I 05/17/2016 12:46:44:826 000017da         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 6018): I 05/17/2016 12:46:44:825 00001782        GoogleWebView| Setting RhoWebChromeClient and RhoWebViewClient
+I/APP     ( 6018): I 05/17/2016 12:46:44:826 000017db                   DB| Open DB: /data/data/com.rhomobile.rhogeolocation/rhodata/db/syncdbuser.sqlite
+I/APP     ( 6018): I 05/17/2016 12:46:44:912 00001782 ConnectionChangeReceiver| LOGGER: Network status change, connected = true
+I/APP     ( 6018): E 05/17/2016 12:46:44:913 00001782         RhodesAppJNI| nativeNotify
+I/APP     ( 6018): E 05/17/2016 12:46:44:913 00001782            RhodesApp| enter notifyReceiver
+I/APP     ( 6018): E 05/17/2016 12:46:44:913 00001782            RhodesApp| calling onNetworkStatusChanged
+I/APP     ( 6018): I 05/17/2016 12:46:44:914 00001782       RhodesActivity| New start parameters: 
+I/APP     ( 6018): I 05/17/2016 12:46:44:915 00001782            RhodesApp| New start params: 
+I/APP     ( 6018): I 05/17/2016 12:46:44:978 000017db            RhodesApp| Starting sync engine...
+I/APP     ( 6018): I 05/17/2016 12:46:44:978 000017db                 Sync| sync_poll_interval: 0
+I/APP     ( 6018): I 05/17/2016 12:46:44:978 000017db                 Sync| syncserver: 
+I/APP     ( 6018): I 05/17/2016 12:46:44:978 000017db                 Sync| bulksync_state: 0
+I/APP     ( 6018): I 05/17/2016 12:46:44:979 000017db           HttpServer| Start HTTP server
+I/APP     ( 6018): I 05/17/2016 12:46:44:979 000017db           HttpServer| Listen for connections on port 40709
+I/APP     ( 6018): I 05/17/2016 12:46:44:979 000017db         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     ( 6018): I 05/17/2016 12:46:44:979 000017da         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     ( 6018): I 05/17/2016 12:46:44:979 000017da         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 6018): I 05/17/2016 12:46:44:979 000017e0                 Sync| Starting main routine...
+I/APP     ( 6018): I 05/17/2016 12:46:44:980 000017e0                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 6018): I 05/17/2016 12:46:44:981 000017da        GoogleWebView| applyWebSettings
+I/APP     ( 6018): I 05/17/2016 12:46:44:981 000017da        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     ( 6018): I 05/17/2016 12:46:44:986 000017da  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     ( 6018): I 05/17/2016 12:46:44:987 000017da  WebSettingsProvider| Allow universal access from file URL
+I/APP     ( 6018): I 05/17/2016 12:46:44:987 000017da    RhodesApplication| Inside runwhen before return
+I/APP     ( 6018): I 05/17/2016 12:46:44:987 000017da         AppCallbacks| addCommand: UI-CREATED
+I/APP     ( 6018): I 05/17/2016 12:46:44:987 000017da    RhodesApplication| New AppState: AppActivated
+I/APP     ( 6018): I 05/17/2016 12:46:44:987 000017da         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 6018): I 05/17/2016 12:46:44:988 000017da    RhodesApplication| Inside runwhen before return
+I/APP     ( 6018): I 05/17/2016 12:46:44:988 000017da         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 6018): I 05/17/2016 12:46:44:988 000017da         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     ( 6018): I 05/17/2016 12:46:44:989 000017da         AppCallbacks| m_uistate: 2
+I/APP     ( 6018): I 05/17/2016 12:46:44:989 000017da         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 6018): I 05/17/2016 12:46:44:989 000017da         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 6018): I 05/17/2016 12:46:45:092 00001782       SimpleMainView| Cleared URL: http://127.0.0.1:40709/public/index.html
+I/APP     ( 6018): I 05/17/2016 12:46:45:094 00001782     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     ( 6018): I 05/17/2016 12:46:45:285 00001782         MetaReceiver| QuitButton', 'Visibility:hidden'
+I/APP     ( 6018): I 05/17/2016 12:46:45:285 00001782         MetaReceiver| BackButton', 'Visibility:hidden'
+I/APP     ( 6018): I 05/17/2016 12:46:45:285 00001782         MetaReceiver| ForwardButton', 'Visibility:hidden'
+I/APP     ( 6018): I 05/17/2016 12:46:45:285 00001782         MetaReceiver| HomeButton', 'Visibility:hidden'
+I/APP     ( 6018): I 05/17/2016 12:46:45:287 00001782         MetaReceiver| ReloadButton', 'Visibility:hidden'
+I/APP     ( 6018): I 05/17/2016 12:46:45:287 00001782         MetaReceiver| ZoomTextButton', 'Visibility:hidden'
+I/APP     ( 6018): I 05/17/2016 12:46:45:287 00001782         MetaReceiver| SIPButton', 'Visibility:hidden'
+I/APP     ( 6018): I 05/17/2016 12:46:45:288 00001782         MetaReceiver| GoButton', 'Visibility:hidden'
+I/APP     ( 6018): I 05/17/2016 12:46:45:288 00001782         MetaReceiver| StopButton', 'Visibility:hidden'
+I/APP     ( 6018): I 05/17/2016 12:46:45:288 00001782         MetaReceiver| MinimizeButton', 'Visibility:hidden'
+I/APP     ( 6018): I 05/17/2016 12:46:45:288 00001782         MetaReceiver| AddressBar', 'top:50;visibility:hidden'
+I/APP     ( 6018): I 05/17/2016 12:46:45:289 00001782         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     ( 6018): I 05/17/2016 12:46:45:363 000017db           HttpServer| Process URI: '/public/index.html'
+I/APP     ( 6018): I 05/17/2016 12:46:45:456 000017db           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I/APP     ( 6018): I 05/17/2016 12:46:45:468 000017db           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I/APP     ( 6018): I 05/17/2016 12:46:45:475 000017db           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I/APP     ( 6018): I 05/17/2016 12:46:45:488 000017db           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I/APP     ( 6018): I 05/17/2016 12:46:45:492 000017db           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I/APP     ( 6018): I 05/17/2016 12:46:45:502 000017db           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I/APP     ( 6018): I 05/17/2016 12:46:45:505 000017db           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I/APP     ( 6018): I 05/17/2016 12:46:45:510 000017db           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I/APP     ( 6018): I 05/17/2016 12:46:46:368 000017d2               NewORM| calling useNewOrm
+I/APP     ( 6018): I 05/17/2016 12:46:46:599 00001782   RhoWebChromeClient| Uncaught SyntaxError: Unexpected token ILLEGAL -- From line 101 of http://127.0.0.1:40709/public/index.html
+I/APP     ( 6018): I 05/17/2016 12:46:47:156 00001782   RhoWebChromeClient| Uncaught InvalidValueError: initMap is not a function -- From line 94 of https://maps.googleapis.com/maps/api/js?key=AIzaSyD3f3hm3UFrX6jWK15QG4hXwWaDtYJiW-s&callback=initMap
+I/APP     ( 6018): I 05/17/2016 12:46:49:005 00001782     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 6018): I 05/17/2016 12:46:49:005 00001782         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     ( 6018): I 05/17/2016 12:46:49:007 00001782     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     ( 6018): I 05/17/2016 12:46:49:011 000017d2         MetaReceiver| null', 'null'
+I/APP     ( 6018): I 05/17/2016 12:46:49:012 000017d2         MetaReceiver| null', 'initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width'
+I/APP     ( 6018): I 05/17/2016 12:46:49:014 000017d2         MetaReceiver| status', 'eom'
+I/APP     ( 6018): I 05/17/2016 12:46:49:017 00001822    RhodesApplication| Inside runwhen before return
+I/APP     ( 6018): I 05/17/2016 12:47:54:091 00001782    RhodesApplication| New UiState: MainActivityPaused
+I/APP     ( 6018): I 05/17/2016 12:47:54:125 00001782    RhodesApplication| New AppState: AppDeactivated
+I/APP     ( 6018): I 05/17/2016 12:47:54:125 00001782        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     ( 6018): I 05/17/2016 12:47:54:126 00001782            RhodesApp| callAppActiveCallback
+I/APP     ( 6018): I 05/17/2016 12:47:54:126 00001782         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     ( 6018): I 05/17/2016 12:47:54:126 000017da         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     ( 6018): I 05/17/2016 12:47:54:126 000017da         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 6018): I 05/17/2016 12:47:54:126 000017da         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 6018): I 05/17/2016 12:47:55:574 00001782         ButtonPlugin| onShutdown+
+I/APP     ( 6018): I 05/17/2016 12:47:55:575 00001782         ButtonPlugin| onShutdown+
+I/APP     ( 6018): I 05/17/2016 12:47:55:575 00001782         ButtonPlugin| onShutdown+
+I/APP     ( 6018): I 05/17/2016 12:47:55:576 00001782         ButtonPlugin| onShutdown+
+I/APP     ( 6018): I 05/17/2016 12:47:55:576 00001782         ButtonPlugin| onShutdown+
+I/APP     ( 6018): I 05/17/2016 12:47:55:578 00001782         ButtonPlugin| onShutdown+
+I/APP     ( 6018): I 05/17/2016 12:47:55:579 00001782         ButtonPlugin| onShutdown+
+I/APP     ( 6018): I 05/17/2016 12:47:55:582 00001782         ButtonPlugin| onShutdown+
+I/APP     ( 6018): I 05/17/2016 12:47:55:583 00001782         ButtonPlugin| onShutdown+
+I/APP     ( 6018): I 05/17/2016 12:47:55:584 00001782         ButtonPlugin| onShutdown+
+I/APP     ( 6018): I 05/17/2016 12:47:55:585 00001782         ButtonPlugin| onShutdown+
+I/APP     ( 6018): I 05/17/2016 12:47:55:592 00001782    RhodesApplication| New UiState: Undefined
+I/APP     (13084): I 05/17/2016 12:48:11:414 0000331c    RhodesApplication| New UiState: Undefined
+I/APP     ( 7872): I 05/17/2016 12:48:58:940 00001ec0 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onCreateApplication
+I/APP     ( 7872): I 05/17/2016 12:48:58:947 00001ec0    RhodesApplication| Initialized
+I/APP     ( 7872): I 05/17/2016 12:48:59:060 00001ec0       RhodesActivity| Config path: /storage/emulated/0/Android/data/com.rhomobile.rhogeolocation/Config.xml
+I/APP     ( 7872): I 05/17/2016 12:48:59:060 00001ec0       RhodesActivity| Loading Config.xml from /storage/emulated/0/Android/data/com.rhomobile.rhogeolocation/Config.xml
+I/APP     ( 7872): I 05/17/2016 12:48:59:307 00001ec0         ElementsCore| RhoElements initializing...
+I/APP     ( 7872): I 05/17/2016 12:48:59:437 00001ec0         ElementsCore| RhoElements initialized.
+I/APP     ( 7872): I 05/17/2016 12:48:59:439 00001ec0    RhoExtManagerImpl| Creating Google web view !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+I/APP     ( 7872): I 05/17/2016 12:48:59:724 00001ec0        GoogleWebView| Initialize Google WEbView staff
+I/APP     ( 7872): I 05/17/2016 12:48:59:735 00001ec0        GoogleWebView| Adding new JS interface: __rhoNativeApi
+I/APP     ( 7872): I 05/17/2016 12:48:59:735 00001ec0     WebViewSingleton| Set config initially: true
+I/APP     ( 7872): I 05/17/2016 12:48:59:736 00001ec0        GoogleWebView| applyWebSettings
+I/APP     ( 7872): I 05/17/2016 12:48:59:736 00001ec0        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     ( 7872): I 05/17/2016 12:48:59:738 00001ec0  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     ( 7872): I 05/17/2016 12:48:59:741 00001ec0  WebSettingsProvider| Allow universal access from file URL
+I/APP     ( 7872): I 05/17/2016 12:48:59:742 00001ec0        GoogleWebView| Adding new JS interface: genericImpl
+I/APP     ( 7872): I 05/17/2016 12:48:59:750 00001ec0        GoogleWebView| Adding new JS interface: apdImpl
+I/APP     ( 7872): I 05/17/2016 12:48:59:750 00001ec0        GoogleWebView| Adding new JS interface: nosipImpl
+I/APP     ( 7872): I 05/17/2016 12:48:59:751 00001ec0        GoogleWebView| Adding new JS interface: metaReceiver
+I/APP     ( 7872): I 05/17/2016 12:48:59:752 00001ec0    RhodesApplication| New UiState: MainActivityCreated
+I/APP     ( 7872): I 05/17/2016 12:48:59:753 00001ec0    RhodesApplication| New UiState: MainActivityStarted
+I/APP     ( 7872): I 05/17/2016 12:48:59:761 00001ec0         SplashScreen| Process config: zoom
+I/APP     ( 7872): I 05/17/2016 12:48:59:761 00001ec0         SplashScreen| Scale type: zoom
+I/APP     ( 7872): I 05/17/2016 12:48:59:762 00001ec0         SplashScreen| Looking for start page source
+I/APP     ( 7872): I 05/17/2016 12:48:59:762 00001ec0         SplashScreen| Loading image: apps/app/loading.png
+I/APP     ( 7872): I 05/17/2016 12:48:59:763 00001ec0         SplashScreen| Specified splashscreen image is not found or supported. Setting the default splashscreen image.
+I/APP     ( 7872): I 05/17/2016 12:48:59:806 00001ec0         SplashScreen| Done
+I/APP     ( 7872): I 05/17/2016 12:48:59:808 00001ec0    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     ( 7872): I 05/17/2016 12:48:59:810 00001ec0 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume
+I/APP     ( 7872): I 05/17/2016 12:48:59:810 00001ec0 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume--first resume
+I/APP     ( 7872): I 05/17/2016 12:48:59:847 00001ec0 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume-BarcodeFactory-DW-false created 
+I/APP     ( 7872): I 05/17/2016 12:48:59:866 00001ec0    LocalFileProvider| Revoke URI permissions: content://com.rhomobile.rhogeolocation
+I/APP     ( 7872): I 05/17/2016 12:48:59:868 00001ec0               Rhodes| Loading...
+I/APP     ( 7872): I 05/17/2016 12:48:59:868 00001ec0            RhodesApp| Trying to get free listening port.
+I/APP     ( 7872): I 05/17/2016 12:48:59:869 00001ec0            RhodesApp| Trying to bind of 0 port...
+I/APP     ( 7872): I 05/17/2016 12:48:59:869 00001ec0            RhodesApp| Got port to bind on: 58225
+I/APP     ( 7872): I 05/17/2016 12:48:59:869 00001ec0            RhodesApp| Free listening port: 58225
+I/APP     ( 7872): I 05/17/2016 12:48:59:872 00001f49         AppCallbacks| Starting main routine...
+I/APP     ( 7872): I 05/17/2016 12:48:59:872 00001f49         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 7872): I 05/17/2016 12:48:59:888 00001ec0            RhodesApp| callAppActiveCallback
+I/APP     ( 7872): I 05/17/2016 12:48:59:888 00001f4b            RhodesApp| Starting RhodesApp main routine...
+I/APP     ( 7872): I 05/17/2016 12:48:59:888 00001f4b            RhodesApp| Starting pure JS application...
+I/APP     ( 7872): I 05/17/2016 12:48:59:888 00001f4b            RhodesApp| Init_RhoBlobs:/data/data/com.rhomobile.rhogeolocation/rhodata/db/db-files
+I/APP     ( 7872): I 05/17/2016 12:48:59:888 00001ec0         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     ( 7872): I 05/17/2016 12:48:59:890 00001f49         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     ( 7872): I 05/17/2016 12:48:59:890 00001ec0         AppActivated| Cannot commit now, application will be activated when started.
+I/APP     ( 7872): I 05/17/2016 12:48:59:890 00001f49         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     ( 7872): I 05/17/2016 12:48:59:890 00001ec0    RhodesApplication| New AppState: Undefined
+I/APP     ( 7872): I 05/17/2016 12:48:59:890 00001f49         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 7872): I 05/17/2016 12:48:59:891 00001ec0        RhodesService| handleCommand: startId=1, source=com.rhomobile.rhodes.BaseActivity
+I/APP     ( 7872): I 05/17/2016 12:48:59:896 00001f4b RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     ( 7872): I 05/17/2016 12:48:59:924 00001ec0         AppCallbacks| addCommand: UI-CREATED
+I/APP     ( 7872): I 05/17/2016 12:48:59:924 00001f49         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     ( 7872): I 05/17/2016 12:48:59:924 00001f49         AppCallbacks| m_uistate: 0
+I/APP     ( 7872): I 05/17/2016 12:48:59:924 00001f49         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     ( 7872): I 05/17/2016 12:48:59:924 00001f49         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 7872): I 05/17/2016 12:48:59:924 00001ec0        GoogleWebView| Setting RhoWebChromeClient and RhoWebViewClient
+I/APP     ( 7872): I 05/17/2016 12:48:59:928 00001f4b                   DB| Open DB: /data/data/com.rhomobile.rhogeolocation/rhodata/db/syncdbuser.sqlite
+I/APP     ( 7872): I 05/17/2016 12:48:59:930 00001f4b            RhodesApp| Starting sync engine...
+I/APP     ( 7872): I 05/17/2016 12:48:59:930 00001f4b                 Sync| sync_poll_interval: 0
+I/APP     ( 7872): I 05/17/2016 12:48:59:931 00001f4b                 Sync| syncserver: 
+I/APP     ( 7872): I 05/17/2016 12:48:59:931 00001f4b                 Sync| bulksync_state: 0
+I/APP     ( 7872): I 05/17/2016 12:48:59:932 00001f4b           HttpServer| Start HTTP server
+I/APP     ( 7872): I 05/17/2016 12:48:59:932 00001f4b           HttpServer| Listen for connections on port 58225
+I/APP     ( 7872): I 05/17/2016 12:48:59:932 00001f4b         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     ( 7872): I 05/17/2016 12:48:59:933 00001f4f                 Sync| Starting main routine...
+I/APP     ( 7872): I 05/17/2016 12:48:59:933 00001f49         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     ( 7872): I 05/17/2016 12:48:59:933 00001f49         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 7872): I 05/17/2016 12:48:59:935 00001f49        GoogleWebView| applyWebSettings
+I/APP     ( 7872): I 05/17/2016 12:48:59:935 00001f49        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     ( 7872): I 05/17/2016 12:48:59:939 00001f49  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     ( 7872): I 05/17/2016 12:48:59:940 00001f49  WebSettingsProvider| Allow universal access from file URL
+I/APP     ( 7872): I 05/17/2016 12:48:59:940 00001f49    RhodesApplication| Inside runwhen before return
+I/APP     ( 7872): I 05/17/2016 12:48:59:940 00001f49         AppCallbacks| addCommand: UI-CREATED
+I/APP     ( 7872): I 05/17/2016 12:48:59:940 00001f49    RhodesApplication| New AppState: AppActivated
+I/APP     ( 7872): I 05/17/2016 12:48:59:941 00001f49         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 7872): I 05/17/2016 12:48:59:942 00001f49    RhodesApplication| Inside runwhen before return
+I/APP     ( 7872): I 05/17/2016 12:48:59:942 00001f49         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 7872): I 05/17/2016 12:48:59:942 00001f49         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     ( 7872): I 05/17/2016 12:48:59:943 00001f49         AppCallbacks| m_uistate: 2
+I/APP     ( 7872): I 05/17/2016 12:48:59:943 00001f49         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 7872): I 05/17/2016 12:48:59:944 00001f49         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 7872): I 05/17/2016 12:48:59:946 00001f4f                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 7872): I 05/17/2016 12:49:00:009 00001ec0 ConnectionChangeReceiver| LOGGER: Network status change, connected = true
+I/APP     ( 7872): E 05/17/2016 12:49:00:010 00001ec0         RhodesAppJNI| nativeNotify
+I/APP     ( 7872): E 05/17/2016 12:49:00:010 00001ec0            RhodesApp| enter notifyReceiver
+I/APP     ( 7872): E 05/17/2016 12:49:00:010 00001ec0            RhodesApp| calling onNetworkStatusChanged
+I/APP     ( 7872): I 05/17/2016 12:49:00:010 00001ec0       RhodesActivity| New start parameters: 
+I/APP     ( 7872): I 05/17/2016 12:49:00:011 00001ec0            RhodesApp| New start params: 
+I/APP     ( 7872): I 05/17/2016 12:49:00:068 00001ec0       SimpleMainView| Cleared URL: http://127.0.0.1:58225/public/index.html
+I/APP     ( 7872): I 05/17/2016 12:49:00:071 00001ec0     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     ( 7872): I 05/17/2016 12:49:00:203 00001f4b           HttpServer| Process URI: '/public/index.html'
+I/APP     ( 7872): I 05/17/2016 12:49:00:212 00001ec0         MetaReceiver| QuitButton', 'Visibility:hidden'
+I/APP     ( 7872): I 05/17/2016 12:49:00:212 00001ec0         MetaReceiver| BackButton', 'Visibility:hidden'
+I/APP     ( 7872): I 05/17/2016 12:49:00:213 00001ec0         MetaReceiver| ForwardButton', 'Visibility:hidden'
+I/APP     ( 7872): I 05/17/2016 12:49:00:213 00001ec0         MetaReceiver| HomeButton', 'Visibility:hidden'
+I/APP     ( 7872): I 05/17/2016 12:49:00:213 00001ec0         MetaReceiver| ReloadButton', 'Visibility:hidden'
+I/APP     ( 7872): I 05/17/2016 12:49:00:214 00001ec0         MetaReceiver| ZoomTextButton', 'Visibility:hidden'
+I/APP     ( 7872): I 05/17/2016 12:49:00:214 00001ec0         MetaReceiver| SIPButton', 'Visibility:hidden'
+I/APP     ( 7872): I 05/17/2016 12:49:00:214 00001ec0         MetaReceiver| GoButton', 'Visibility:hidden'
+I/APP     ( 7872): I 05/17/2016 12:49:00:215 00001ec0         MetaReceiver| StopButton', 'Visibility:hidden'
+I/APP     ( 7872): I 05/17/2016 12:49:00:215 00001ec0         MetaReceiver| MinimizeButton', 'Visibility:hidden'
+I/APP     ( 7872): I 05/17/2016 12:49:00:215 00001ec0         MetaReceiver| AddressBar', 'top:50;visibility:hidden'
+I/APP     ( 7872): I 05/17/2016 12:49:00:216 00001ec0         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     ( 7872): I 05/17/2016 12:49:00:310 00001f4b           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I/APP     ( 7872): I 05/17/2016 12:49:00:333 00001f4b           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I/APP     ( 7872): I 05/17/2016 12:49:00:340 00001f4b           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I/APP     ( 7872): I 05/17/2016 12:49:00:349 00001f4b           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I/APP     ( 7872): I 05/17/2016 12:49:00:352 00001f4b           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I/APP     ( 7872): I 05/17/2016 12:49:00:370 00001f4b           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I/APP     ( 7872): I 05/17/2016 12:49:00:373 00001f4b           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I/APP     ( 7872): I 05/17/2016 12:49:00:377 00001f4b           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I/APP     ( 7872): I 05/17/2016 12:49:01:126 00001f39               NewORM| calling useNewOrm
+I/APP     ( 7872): I 05/17/2016 12:49:05:325 00001ec0     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 7872): I 05/17/2016 12:49:05:326 00001ec0         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     ( 7872): I 05/17/2016 12:49:05:328 00001ec0     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     ( 7872): I 05/17/2016 12:49:05:341 00001f97    RhodesApplication| Inside runwhen before return
+I/APP     ( 7872): I 05/17/2016 12:49:05:751 00001f39         MetaReceiver| null', 'null'
+I/APP     ( 7872): I 05/17/2016 12:49:05:753 00001f39         MetaReceiver| null', 'initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width'
+I/APP     ( 7872): I 05/17/2016 12:49:05:756 00001f39         MetaReceiver| status', 'eom'
+I/APP     ( 7872): I 05/17/2016 12:57:34:054 00001ec0    RhodesApplication| New UiState: MainActivityPaused
+I/APP     ( 7872): I 05/17/2016 12:57:34:085 00001ec0    RhodesApplication| New AppState: AppDeactivated
+I/APP     ( 7872): I 05/17/2016 12:57:34:085 00001ec0        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     ( 7872): I 05/17/2016 12:57:34:086 00001ec0            RhodesApp| callAppActiveCallback
+I/APP     ( 7872): I 05/17/2016 12:57:34:086 00001ec0         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     ( 7872): I 05/17/2016 12:57:34:086 00001f49         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     ( 7872): I 05/17/2016 12:57:34:087 00001f49         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 7872): I 05/17/2016 12:57:34:087 00001f49         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 7872): I 05/17/2016 12:57:35:395 00001ec0         ButtonPlugin| onShutdown+
+I/APP     ( 7872): I 05/17/2016 12:57:35:396 00001ec0         ButtonPlugin| onShutdown+
+I/APP     ( 7872): I 05/17/2016 12:57:35:397 00001ec0         ButtonPlugin| onShutdown+
+I/APP     ( 7872): I 05/17/2016 12:57:35:397 00001ec0         ButtonPlugin| onShutdown+
+I/APP     ( 7872): I 05/17/2016 12:57:35:397 00001ec0         ButtonPlugin| onShutdown+
+I/APP     ( 7872): I 05/17/2016 12:57:35:398 00001ec0         ButtonPlugin| onShutdown+
+I/APP     ( 7872): I 05/17/2016 12:57:35:399 00001ec0         ButtonPlugin| onShutdown+
+I/APP     ( 7872): I 05/17/2016 12:57:35:399 00001ec0         ButtonPlugin| onShutdown+
+I/APP     ( 7872): I 05/17/2016 12:57:35:400 00001ec0         ButtonPlugin| onShutdown+
+I/APP     ( 7872): I 05/17/2016 12:57:35:401 00001ec0         ButtonPlugin| onShutdown+
+I/APP     ( 7872): I 05/17/2016 12:57:35:402 00001ec0         ButtonPlugin| onShutdown+
+I/APP     ( 7872): I 05/17/2016 12:57:35:408 00001ec0    RhodesApplication| New UiState: Undefined
+I/APP     (14948): I 05/17/2016 12:58:46:574 00003a64 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onCreateApplication
+I/APP     (14948): I 05/17/2016 12:58:46:577 00003a64    RhodesApplication| Initialized
+I/APP     (14948): I 05/17/2016 12:58:46:656 00003a64       RhodesActivity| Config path: /storage/emulated/0/Android/data/com.rhomobile.rhogeolocation/Config.xml
+I/APP     (14948): I 05/17/2016 12:58:46:656 00003a64       RhodesActivity| Loading Config.xml from resources
+I/APP     (14948): I 05/17/2016 12:58:46:973 00003a64         ElementsCore| RhoElements initializing...
+I/APP     (14948): I 05/17/2016 12:58:47:133 00003a64         ElementsCore| RhoElements initialized.
+I/APP     (14948): I 05/17/2016 12:58:47:135 00003a64    RhoExtManagerImpl| Creating Google web view !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+I/APP     (14948): I 05/17/2016 12:58:47:429 00003a64        GoogleWebView| Initialize Google WEbView staff
+I/APP     (14948): I 05/17/2016 12:58:47:438 00003a64        GoogleWebView| Adding new JS interface: __rhoNativeApi
+I/APP     (14948): I 05/17/2016 12:58:47:438 00003a64     WebViewSingleton| Set config initially: true
+I/APP     (14948): I 05/17/2016 12:58:47:439 00003a64        GoogleWebView| applyWebSettings
+I/APP     (14948): I 05/17/2016 12:58:47:439 00003a64        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (14948): I 05/17/2016 12:58:47:442 00003a64  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (14948): I 05/17/2016 12:58:47:446 00003a64  WebSettingsProvider| Allow universal access from file URL
+I/APP     (14948): I 05/17/2016 12:58:47:447 00003a64        GoogleWebView| Adding new JS interface: genericImpl
+I/APP     (14948): I 05/17/2016 12:58:47:536 00003a64        GoogleWebView| Adding new JS interface: apdImpl
+I/APP     (14948): I 05/17/2016 12:58:47:537 00003a64        GoogleWebView| Adding new JS interface: nosipImpl
+I/APP     (14948): I 05/17/2016 12:58:47:537 00003a64        GoogleWebView| Adding new JS interface: metaReceiver
+I/APP     (14948): I 05/17/2016 12:58:47:538 00003a64    RhodesApplication| New UiState: MainActivityCreated
+I/APP     (14948): I 05/17/2016 12:58:47:540 00003a64    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (14948): I 05/17/2016 12:58:47:556 00003a64         SplashScreen| Process config: zoom
+I/APP     (14948): I 05/17/2016 12:58:47:556 00003a64         SplashScreen| Scale type: zoom
+I/APP     (14948): I 05/17/2016 12:58:47:556 00003a64         SplashScreen| Looking for start page source
+I/APP     (14948): I 05/17/2016 12:58:47:557 00003a64         SplashScreen| Loading image: apps/app/loading.png
+I/APP     (14948): I 05/17/2016 12:58:47:558 00003a64         SplashScreen| Specified splashscreen image is not found or supported. Setting the default splashscreen image.
+I/APP     (14948): I 05/17/2016 12:58:47:598 00003a64         SplashScreen| Done
+I/APP     (14948): I 05/17/2016 12:58:47:600 00003a64    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (14948): I 05/17/2016 12:58:47:603 00003a64 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume
+I/APP     (14948): I 05/17/2016 12:58:47:603 00003a64 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume--first resume
+I/APP     (14948): I 05/17/2016 12:58:47:635 00003a64 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume-BarcodeFactory-DW-false created 
+I/APP     (14948): I 05/17/2016 12:58:47:652 00003a64    LocalFileProvider| Revoke URI permissions: content://com.rhomobile.rhogeolocation
+I/APP     (14948): I 05/17/2016 12:58:47:653 00003a64               Rhodes| Loading...
+I/APP     (14948): I 05/17/2016 12:58:47:654 00003a64            RhodesApp| Trying to get free listening port.
+I/APP     (14948): I 05/17/2016 12:58:47:655 00003a64            RhodesApp| Trying to bind of 0 port...
+I/APP     (14948): I 05/17/2016 12:58:47:655 00003a64            RhodesApp| Got port to bind on: 43035
+I/APP     (14948): I 05/17/2016 12:58:47:655 00003aa9         AppCallbacks| Starting main routine...
+I/APP     (14948): I 05/17/2016 12:58:47:655 00003aa9         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (14948): I 05/17/2016 12:58:47:655 00003a64            RhodesApp| Free listening port: 43035
+I/APP     (14948): I 05/17/2016 12:58:47:669 00003a64            RhodesApp| callAppActiveCallback
+I/APP     (14948): I 05/17/2016 12:58:47:670 00003a64         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (14948): I 05/17/2016 12:58:47:670 00003aa9         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (14948): I 05/17/2016 12:58:47:670 00003aa9         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (14948): I 05/17/2016 12:58:47:670 00003aaa            RhodesApp| Starting RhodesApp main routine...
+I/APP     (14948): I 05/17/2016 12:58:47:670 00003aa9         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (14948): I 05/17/2016 12:58:47:670 00003a64         AppActivated| Cannot commit now, application will be activated when started.
+I/APP     (14948): I 05/17/2016 12:58:47:671 00003a64    RhodesApplication| New AppState: Undefined
+I/APP     (14948): I 05/17/2016 12:58:47:670 00003aaa            RhodesApp| Starting pure JS application...
+I/APP     (14948): I 05/17/2016 12:58:47:671 00003aaa            RhodesApp| Init_RhoBlobs:/data/data/com.rhomobile.rhogeolocation/rhodata/db/db-files
+I/APP     (14948): I 05/17/2016 12:58:47:674 00003a64        RhodesService| handleCommand: startId=1, source=com.rhomobile.rhodes.BaseActivity
+I/APP     (14948): I 05/17/2016 12:58:47:679 00003aaa RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (14948): I 05/17/2016 12:58:47:708 00003a64         AppCallbacks| addCommand: UI-CREATED
+I/APP     (14948): I 05/17/2016 12:58:47:710 00003a64        GoogleWebView| Setting RhoWebChromeClient and RhoWebViewClient
+I/APP     (14948): I 05/17/2016 12:58:47:711 00003aa9         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (14948): I 05/17/2016 12:58:47:711 00003aa9         AppCallbacks| m_uistate: 0
+I/APP     (14948): I 05/17/2016 12:58:47:711 00003aa9         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (14948): I 05/17/2016 12:58:47:711 00003aa9         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (14948): I 05/17/2016 12:58:47:716 00003aaa                   DB| Open DB: /data/data/com.rhomobile.rhogeolocation/rhodata/db/syncdbuser.sqlite
+I/APP     (14948): I 05/17/2016 12:58:47:789 00003a64 ConnectionChangeReceiver| LOGGER: Network status change, connected = true
+I/APP     (14948): E 05/17/2016 12:58:47:790 00003a64         RhodesAppJNI| nativeNotify
+I/APP     (14948): E 05/17/2016 12:58:47:790 00003a64            RhodesApp| enter notifyReceiver
+I/APP     (14948): E 05/17/2016 12:58:47:790 00003a64            RhodesApp| calling onNetworkStatusChanged
+I/APP     (14948): I 05/17/2016 12:58:47:790 00003a64       RhodesActivity| New start parameters: 
+I/APP     (14948): I 05/17/2016 12:58:47:790 00003a64            RhodesApp| New start params: 
+I/APP     (14948): I 05/17/2016 12:58:47:855 00003aaa            RhodesApp| Starting sync engine...
+I/APP     (14948): I 05/17/2016 12:58:47:856 00003aaa                 Sync| sync_poll_interval: 0
+I/APP     (14948): I 05/17/2016 12:58:47:856 00003aaa                 Sync| syncserver: 
+I/APP     (14948): I 05/17/2016 12:58:47:857 00003aaa                 Sync| bulksync_state: 0
+I/APP     (14948): I 05/17/2016 12:58:47:857 00003aaa           HttpServer| Start HTTP server
+I/APP     (14948): I 05/17/2016 12:58:47:858 00003aaa           HttpServer| Listen for connections on port 43035
+I/APP     (14948): I 05/17/2016 12:58:47:858 00003aaa         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (14948): I 05/17/2016 12:58:47:858 00003aa9         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (14948): I 05/17/2016 12:58:47:859 00003aa9         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (14948): I 05/17/2016 12:58:47:859 00003ab1                 Sync| Starting main routine...
+I/APP     (14948): I 05/17/2016 12:58:47:860 00003ab1                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (14948): I 05/17/2016 12:58:47:861 00003aa9        GoogleWebView| applyWebSettings
+I/APP     (14948): I 05/17/2016 12:58:47:861 00003aa9        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (14948): I 05/17/2016 12:58:47:865 00003aa9  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (14948): I 05/17/2016 12:58:47:865 00003aa9  WebSettingsProvider| Allow universal access from file URL
+I/APP     (14948): I 05/17/2016 12:58:47:865 00003aa9    RhodesApplication| Inside runwhen before return
+I/APP     (14948): I 05/17/2016 12:58:47:866 00003aa9         AppCallbacks| addCommand: UI-CREATED
+I/APP     (14948): I 05/17/2016 12:58:47:866 00003aa9    RhodesApplication| New AppState: AppActivated
+I/APP     (14948): I 05/17/2016 12:58:47:866 00003aa9         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (14948): I 05/17/2016 12:58:47:867 00003aa9    RhodesApplication| Inside runwhen before return
+I/APP     (14948): I 05/17/2016 12:58:47:867 00003aa9         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (14948): I 05/17/2016 12:58:47:868 00003aa9         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (14948): I 05/17/2016 12:58:47:868 00003aa9         AppCallbacks| m_uistate: 2
+I/APP     (14948): I 05/17/2016 12:58:47:868 00003aa9         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (14948): I 05/17/2016 12:58:47:868 00003aa9         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (14948): I 05/17/2016 12:58:47:957 00003a64       SimpleMainView| Cleared URL: http://127.0.0.1:43035/public/index.html
+I/APP     (14948): I 05/17/2016 12:58:47:959 00003a64     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (14948): I 05/17/2016 12:58:48:093 00003a64         MetaReceiver| QuitButton', 'Visibility:hidden'
+I/APP     (14948): I 05/17/2016 12:58:48:094 00003a64         MetaReceiver| BackButton', 'Visibility:hidden'
+I/APP     (14948): I 05/17/2016 12:58:48:094 00003a64         MetaReceiver| ForwardButton', 'Visibility:hidden'
+I/APP     (14948): I 05/17/2016 12:58:48:094 00003a64         MetaReceiver| HomeButton', 'Visibility:hidden'
+I/APP     (14948): I 05/17/2016 12:58:48:095 00003a64         MetaReceiver| ReloadButton', 'Visibility:hidden'
+I/APP     (14948): I 05/17/2016 12:58:48:095 00003a64         MetaReceiver| ZoomTextButton', 'Visibility:hidden'
+I/APP     (14948): I 05/17/2016 12:58:48:095 00003a64         MetaReceiver| SIPButton', 'Visibility:hidden'
+I/APP     (14948): I 05/17/2016 12:58:48:096 00003a64         MetaReceiver| GoButton', 'Visibility:hidden'
+I/APP     (14948): I 05/17/2016 12:58:48:096 00003a64         MetaReceiver| StopButton', 'Visibility:hidden'
+I/APP     (14948): I 05/17/2016 12:58:48:096 00003a64         MetaReceiver| MinimizeButton', 'Visibility:hidden'
+I/APP     (14948): I 05/17/2016 12:58:48:097 00003a64         MetaReceiver| AddressBar', 'top:50;visibility:hidden'
+I/APP     (14948): I 05/17/2016 12:58:48:097 00003a64         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (14948): I 05/17/2016 12:58:48:168 00003aaa           HttpServer| Process URI: '/public/index.html'
+I/APP     (14948): I 05/17/2016 12:58:48:230 00003aaa           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I/APP     (14948): I 05/17/2016 12:58:48:261 00003aaa           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I/APP     (14948): I 05/17/2016 12:58:48:267 00003aaa           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I/APP     (14948): I 05/17/2016 12:58:48:272 00003aaa           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I/APP     (14948): I 05/17/2016 12:58:48:277 00003aaa           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I/APP     (14948): I 05/17/2016 12:58:48:306 00003aaa           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I/APP     (14948): I 05/17/2016 12:58:48:310 00003aaa           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I/APP     (14948): I 05/17/2016 12:58:48:313 00003aaa           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I/APP     (14948): I 05/17/2016 12:58:49:043 00003aa4               NewORM| calling useNewOrm
+I/APP     (14948): I 05/17/2016 12:58:56:750 00003a64     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (14948): I 05/17/2016 12:58:56:751 00003a64         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (14948): I 05/17/2016 12:58:56:752 00003a64     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (14948): I 05/17/2016 12:58:56:755 00003b45    RhodesApplication| Inside runwhen before return
+I/APP     (14948): I 05/17/2016 12:58:56:756 00003aa4         MetaReceiver| null', 'null'
+I/APP     (14948): I 05/17/2016 12:58:56:757 00003aa4         MetaReceiver| null', 'initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width'
+I/APP     (14948): I 05/17/2016 12:58:56:758 00003aa4         MetaReceiver| status', 'eom'
+I/APP     (14948): I 05/17/2016 13:01:01:414 00003a64    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (14948): I 05/17/2016 13:01:01:440 00003a64    RhodesApplication| New AppState: AppDeactivated
+I/APP     (14948): I 05/17/2016 13:01:01:441 00003a64        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (14948): I 05/17/2016 13:01:01:442 00003a64            RhodesApp| callAppActiveCallback
+I/APP     (14948): I 05/17/2016 13:01:01:442 00003a64         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (14948): I 05/17/2016 13:01:01:443 00003aa9         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (14948): I 05/17/2016 13:01:01:443 00003aa9         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (14948): I 05/17/2016 13:01:01:446 00003aa9         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (14948): I 05/17/2016 13:01:02:665 00003a64         ButtonPlugin| onShutdown+
+I/APP     (14948): I 05/17/2016 13:01:02:666 00003a64         ButtonPlugin| onShutdown+
+I/APP     (14948): I 05/17/2016 13:01:02:666 00003a64         ButtonPlugin| onShutdown+
+I/APP     (14948): I 05/17/2016 13:01:02:667 00003a64         ButtonPlugin| onShutdown+
+I/APP     (14948): I 05/17/2016 13:01:02:668 00003a64         ButtonPlugin| onShutdown+
+I/APP     (14948): I 05/17/2016 13:01:02:669 00003a64         ButtonPlugin| onShutdown+
+I/APP     (14948): I 05/17/2016 13:01:02:670 00003a64         ButtonPlugin| onShutdown+
+I/APP     (14948): I 05/17/2016 13:01:02:670 00003a64         ButtonPlugin| onShutdown+
+I/APP     (14948): I 05/17/2016 13:01:02:671 00003a64         ButtonPlugin| onShutdown+
+I/APP     (14948): I 05/17/2016 13:01:02:672 00003a64         ButtonPlugin| onShutdown+
+I/APP     (14948): I 05/17/2016 13:01:02:673 00003a64         ButtonPlugin| onShutdown+
+I/APP     (14948): I 05/17/2016 13:01:02:678 00003a64    RhodesApplication| New UiState: Undefined
+I/APP     (17695): I 05/17/2016 13:02:16:785 0000451f BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onCreateApplication
+I/APP     (17695): I 05/17/2016 13:02:16:792 0000451f    RhodesApplication| Initialized
+I/APP     (17695): I 05/17/2016 13:02:16:879 0000451f       RhodesActivity| Config path: /storage/emulated/0/Android/data/com.rhomobile.rhogeolocation/Config.xml
+I/APP     (17695): I 05/17/2016 13:02:16:879 0000451f       RhodesActivity| Loading Config.xml from resources
+I/APP     (17695): I 05/17/2016 13:02:17:187 0000451f         ElementsCore| RhoElements initializing...
+I/APP     (17695): I 05/17/2016 13:02:17:316 0000451f         ElementsCore| RhoElements initialized.
+I/APP     (17695): I 05/17/2016 13:02:17:318 0000451f    RhoExtManagerImpl| Creating Google web view !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+I/APP     (17695): I 05/17/2016 13:02:17:590 0000451f        GoogleWebView| Initialize Google WEbView staff
+I/APP     (17695): I 05/17/2016 13:02:17:599 0000451f        GoogleWebView| Adding new JS interface: __rhoNativeApi
+I/APP     (17695): I 05/17/2016 13:02:17:599 0000451f     WebViewSingleton| Set config initially: true
+I/APP     (17695): I 05/17/2016 13:02:17:600 0000451f        GoogleWebView| applyWebSettings
+I/APP     (17695): I 05/17/2016 13:02:17:600 0000451f        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (17695): I 05/17/2016 13:02:17:602 0000451f  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (17695): I 05/17/2016 13:02:17:606 0000451f  WebSettingsProvider| Allow universal access from file URL
+I/APP     (17695): I 05/17/2016 13:02:17:607 0000451f        GoogleWebView| Adding new JS interface: genericImpl
+I/APP     (17695): I 05/17/2016 13:02:17:703 0000451f        GoogleWebView| Adding new JS interface: apdImpl
+I/APP     (17695): I 05/17/2016 13:02:17:704 0000451f        GoogleWebView| Adding new JS interface: nosipImpl
+I/APP     (17695): I 05/17/2016 13:02:17:705 0000451f        GoogleWebView| Adding new JS interface: metaReceiver
+I/APP     (17695): I 05/17/2016 13:02:17:706 0000451f    RhodesApplication| New UiState: MainActivityCreated
+I/APP     (17695): I 05/17/2016 13:02:17:708 0000451f    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (17695): I 05/17/2016 13:02:17:725 0000451f         SplashScreen| Process config: zoom
+I/APP     (17695): I 05/17/2016 13:02:17:725 0000451f         SplashScreen| Scale type: zoom
+I/APP     (17695): I 05/17/2016 13:02:17:725 0000451f         SplashScreen| Looking for start page source
+I/APP     (17695): I 05/17/2016 13:02:17:726 0000451f         SplashScreen| Loading image: apps/app/loading.png
+I/APP     (17695): I 05/17/2016 13:02:17:727 0000451f         SplashScreen| Specified splashscreen image is not found or supported. Setting the default splashscreen image.
+I/APP     (17695): I 05/17/2016 13:02:17:767 0000451f         SplashScreen| Done
+I/APP     (17695): I 05/17/2016 13:02:17:769 0000451f    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (17695): I 05/17/2016 13:02:17:772 0000451f BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume
+I/APP     (17695): I 05/17/2016 13:02:17:772 0000451f BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume--first resume
+I/APP     (17695): I 05/17/2016 13:02:17:806 0000451f BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume-BarcodeFactory-DW-false created 
+I/APP     (17695): I 05/17/2016 13:02:17:826 0000451f    LocalFileProvider| Revoke URI permissions: content://com.rhomobile.rhogeolocation
+I/APP     (17695): I 05/17/2016 13:02:17:827 0000451f               Rhodes| Loading...
+I/APP     (17695): I 05/17/2016 13:02:17:828 0000451f            RhodesApp| Trying to get free listening port.
+I/APP     (17695): I 05/17/2016 13:02:17:829 0000451f            RhodesApp| Trying to bind of 0 port...
+I/APP     (17695): I 05/17/2016 13:02:17:829 0000451f            RhodesApp| Got port to bind on: 50276
+I/APP     (17695): I 05/17/2016 13:02:17:829 0000451f            RhodesApp| Free listening port: 50276
+I/APP     (17695): I 05/17/2016 13:02:17:829 00004577         AppCallbacks| Starting main routine...
+I/APP     (17695): I 05/17/2016 13:02:17:830 00004577         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (17695): I 05/17/2016 13:02:17:842 0000451f            RhodesApp| callAppActiveCallback
+I/APP     (17695): I 05/17/2016 13:02:17:843 0000451f         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (17695): I 05/17/2016 13:02:17:843 00004577         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (17695): I 05/17/2016 13:02:17:843 00004577         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (17695): I 05/17/2016 13:02:17:843 00004578            RhodesApp| Starting RhodesApp main routine...
+I/APP     (17695): I 05/17/2016 13:02:17:844 00004578            RhodesApp| Starting pure JS application...
+I/APP     (17695): I 05/17/2016 13:02:17:844 00004578            RhodesApp| Init_RhoBlobs:/data/data/com.rhomobile.rhogeolocation/rhodata/db/db-files
+I/APP     (17695): I 05/17/2016 13:02:17:843 00004577         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (17695): I 05/17/2016 13:02:17:843 0000451f         AppActivated| Cannot commit now, application will be activated when started.
+I/APP     (17695): I 05/17/2016 13:02:17:847 0000451f    RhodesApplication| New AppState: Undefined
+I/APP     (17695): I 05/17/2016 13:02:17:849 0000451f        RhodesService| handleCommand: startId=1, source=com.rhomobile.rhodes.BaseActivity
+I/APP     (17695): I 05/17/2016 13:02:17:850 00004578 RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (17695): I 05/17/2016 13:02:17:879 00004578                   DB| Open DB: /data/data/com.rhomobile.rhogeolocation/rhodata/db/syncdbuser.sqlite
+I/APP     (17695): I 05/17/2016 13:02:17:890 0000451f         AppCallbacks| addCommand: UI-CREATED
+I/APP     (17695): I 05/17/2016 13:02:17:890 00004577         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (17695): I 05/17/2016 13:02:17:890 0000451f        GoogleWebView| Setting RhoWebChromeClient and RhoWebViewClient
+I/APP     (17695): I 05/17/2016 13:02:17:890 00004577         AppCallbacks| m_uistate: 0
+I/APP     (17695): I 05/17/2016 13:02:17:891 00004577         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (17695): I 05/17/2016 13:02:17:891 00004577         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (17695): I 05/17/2016 13:02:17:965 0000451f ConnectionChangeReceiver| LOGGER: Network status change, connected = true
+I/APP     (17695): E 05/17/2016 13:02:17:966 0000451f         RhodesAppJNI| nativeNotify
+I/APP     (17695): E 05/17/2016 13:02:17:966 0000451f            RhodesApp| enter notifyReceiver
+I/APP     (17695): E 05/17/2016 13:02:17:966 0000451f            RhodesApp| calling onNetworkStatusChanged
+I/APP     (17695): I 05/17/2016 13:02:17:966 0000451f       RhodesActivity| New start parameters: 
+I/APP     (17695): I 05/17/2016 13:02:17:967 0000451f            RhodesApp| New start params: 
+I/APP     (17695): I 05/17/2016 13:02:18:028 00004578            RhodesApp| Starting sync engine...
+I/APP     (17695): I 05/17/2016 13:02:18:029 00004578                 Sync| sync_poll_interval: 0
+I/APP     (17695): I 05/17/2016 13:02:18:029 00004578                 Sync| syncserver: 
+I/APP     (17695): I 05/17/2016 13:02:18:029 00004578                 Sync| bulksync_state: 0
+I/APP     (17695): I 05/17/2016 13:02:18:029 00004578           HttpServer| Start HTTP server
+I/APP     (17695): I 05/17/2016 13:02:18:029 00004578           HttpServer| Listen for connections on port 50276
+I/APP     (17695): I 05/17/2016 13:02:18:030 00004578         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (17695): I 05/17/2016 13:02:18:030 00004577         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (17695): I 05/17/2016 13:02:18:030 00004577         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (17695): I 05/17/2016 13:02:18:032 00004577        GoogleWebView| applyWebSettings
+I/APP     (17695): I 05/17/2016 13:02:18:032 00004577        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (17695): I 05/17/2016 13:02:18:033 0000457e                 Sync| Starting main routine...
+I/APP     (17695): I 05/17/2016 13:02:18:034 0000457e                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (17695): I 05/17/2016 13:02:18:038 00004577  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (17695): I 05/17/2016 13:02:18:038 00004577  WebSettingsProvider| Allow universal access from file URL
+I/APP     (17695): I 05/17/2016 13:02:18:039 00004577    RhodesApplication| Inside runwhen before return
+I/APP     (17695): I 05/17/2016 13:02:18:039 00004577         AppCallbacks| addCommand: UI-CREATED
+I/APP     (17695): I 05/17/2016 13:02:18:039 00004577    RhodesApplication| New AppState: AppActivated
+I/APP     (17695): I 05/17/2016 13:02:18:039 00004577         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (17695): I 05/17/2016 13:02:18:041 00004577    RhodesApplication| Inside runwhen before return
+I/APP     (17695): I 05/17/2016 13:02:18:041 00004577         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (17695): I 05/17/2016 13:02:18:041 00004577         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (17695): I 05/17/2016 13:02:18:041 00004577         AppCallbacks| m_uistate: 2
+I/APP     (17695): I 05/17/2016 13:02:18:041 00004577         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (17695): I 05/17/2016 13:02:18:041 00004577         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (17695): I 05/17/2016 13:02:18:125 0000451f       SimpleMainView| Cleared URL: http://127.0.0.1:50276/public/index.html
+I/APP     (17695): I 05/17/2016 13:02:18:126 0000451f     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (17695): I 05/17/2016 13:02:18:243 0000451f         MetaReceiver| QuitButton', 'Visibility:hidden'
+I/APP     (17695): I 05/17/2016 13:02:18:243 0000451f         MetaReceiver| BackButton', 'Visibility:hidden'
+I/APP     (17695): I 05/17/2016 13:02:18:243 0000451f         MetaReceiver| ForwardButton', 'Visibility:hidden'
+I/APP     (17695): I 05/17/2016 13:02:18:244 0000451f         MetaReceiver| HomeButton', 'Visibility:hidden'
+I/APP     (17695): I 05/17/2016 13:02:18:244 0000451f         MetaReceiver| ReloadButton', 'Visibility:hidden'
+I/APP     (17695): I 05/17/2016 13:02:18:244 0000451f         MetaReceiver| ZoomTextButton', 'Visibility:hidden'
+I/APP     (17695): I 05/17/2016 13:02:18:244 0000451f         MetaReceiver| SIPButton', 'Visibility:hidden'
+I/APP     (17695): I 05/17/2016 13:02:18:244 0000451f         MetaReceiver| GoButton', 'Visibility:hidden'
+I/APP     (17695): I 05/17/2016 13:02:18:244 0000451f         MetaReceiver| StopButton', 'Visibility:hidden'
+I/APP     (17695): I 05/17/2016 13:02:18:244 0000451f         MetaReceiver| MinimizeButton', 'Visibility:hidden'
+I/APP     (17695): I 05/17/2016 13:02:18:245 0000451f         MetaReceiver| AddressBar', 'top:50;visibility:hidden'
+I/APP     (17695): I 05/17/2016 13:02:18:245 0000451f         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (17695): I 05/17/2016 13:02:18:320 00004578           HttpServer| Process URI: '/public/index.html'
+I/APP     (17695): I 05/17/2016 13:02:18:389 00004578           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I/APP     (17695): I 05/17/2016 13:02:18:396 00004578           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I/APP     (17695): I 05/17/2016 13:02:18:401 00004578           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I/APP     (17695): I 05/17/2016 13:02:18:405 00004578           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I/APP     (17695): I 05/17/2016 13:02:18:411 00004578           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I/APP     (17695): I 05/17/2016 13:02:18:426 00004578           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I/APP     (17695): I 05/17/2016 13:02:18:430 00004578           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I/APP     (17695): I 05/17/2016 13:02:18:434 00004578           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I/APP     (17695): I 05/17/2016 13:02:19:165 0000456c               NewORM| calling useNewOrm
+I/APP     (17695): I 05/17/2016 13:02:30:032 0000451f     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (17695): I 05/17/2016 13:02:30:033 0000451f         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (17695): I 05/17/2016 13:02:30:034 0000451f     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (17695): I 05/17/2016 13:02:30:039 0000456c         MetaReceiver| null', 'null'
+I/APP     (17695): I 05/17/2016 13:02:30:041 0000456c         MetaReceiver| null', 'initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width'
+I/APP     (17695): I 05/17/2016 13:02:30:042 0000456c         MetaReceiver| status', 'eom'
+I/APP     (17695): I 05/17/2016 13:02:30:042 00004650    RhodesApplication| Inside runwhen before return
+I/APP     (17695): I 05/17/2016 13:04:44:009 0000451f    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (17695): I 05/17/2016 13:04:44:041 0000451f    RhodesApplication| New AppState: AppDeactivated
+I/APP     (17695): I 05/17/2016 13:04:44:042 0000451f        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (17695): I 05/17/2016 13:04:44:042 0000451f            RhodesApp| callAppActiveCallback
+I/APP     (17695): I 05/17/2016 13:04:44:042 0000451f         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (17695): I 05/17/2016 13:04:44:042 00004577         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (17695): I 05/17/2016 13:04:44:043 00004577         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (17695): I 05/17/2016 13:04:44:043 00004577         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (17695): I 05/17/2016 13:04:45:326 0000451f         ButtonPlugin| onShutdown+
+I/APP     (17695): I 05/17/2016 13:04:45:327 0000451f         ButtonPlugin| onShutdown+
+I/APP     (17695): I 05/17/2016 13:04:45:328 0000451f         ButtonPlugin| onShutdown+
+I/APP     (17695): I 05/17/2016 13:04:45:328 0000451f         ButtonPlugin| onShutdown+
+I/APP     (17695): I 05/17/2016 13:04:45:329 0000451f         ButtonPlugin| onShutdown+
+I/APP     (17695): I 05/17/2016 13:04:45:329 0000451f         ButtonPlugin| onShutdown+
+I/APP     (17695): I 05/17/2016 13:04:45:330 0000451f         ButtonPlugin| onShutdown+
+I/APP     (17695): I 05/17/2016 13:04:45:330 0000451f         ButtonPlugin| onShutdown+
+I/APP     (17695): I 05/17/2016 13:04:45:331 0000451f         ButtonPlugin| onShutdown+
+I/APP     (17695): I 05/17/2016 13:04:45:331 0000451f         ButtonPlugin| onShutdown+
+I/APP     (17695): I 05/17/2016 13:04:45:333 0000451f         ButtonPlugin| onShutdown+
+I/APP     (17695): I 05/17/2016 13:04:45:339 0000451f    RhodesApplication| New UiState: Undefined
+I/APP     (20587): I 05/17/2016 13:05:50:926 0000506b BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onCreateApplication
+I/APP     (20587): I 05/17/2016 13:05:50:931 0000506b    RhodesApplication| Initialized
+I/APP     (20587): I 05/17/2016 13:05:51:027 0000506b       RhodesActivity| Config path: /storage/emulated/0/Android/data/com.rhomobile.rhogeolocation/Config.xml
+I/APP     (20587): I 05/17/2016 13:05:51:028 0000506b       RhodesActivity| Loading Config.xml from resources
+I/APP     (20587): I 05/17/2016 13:05:51:348 0000506b         ElementsCore| RhoElements initializing...
+I/APP     (20587): I 05/17/2016 13:05:51:489 0000506b         ElementsCore| RhoElements initialized.
+I/APP     (20587): I 05/17/2016 13:05:51:491 0000506b    RhoExtManagerImpl| Creating Google web view !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+I/APP     (20587): I 05/17/2016 13:05:51:790 0000506b        GoogleWebView| Initialize Google WEbView staff
+I/APP     (20587): I 05/17/2016 13:05:51:799 0000506b        GoogleWebView| Adding new JS interface: __rhoNativeApi
+I/APP     (20587): I 05/17/2016 13:05:51:800 0000506b     WebViewSingleton| Set config initially: true
+I/APP     (20587): I 05/17/2016 13:05:51:800 0000506b        GoogleWebView| applyWebSettings
+I/APP     (20587): I 05/17/2016 13:05:51:800 0000506b        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (20587): I 05/17/2016 13:05:51:803 0000506b  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (20587): I 05/17/2016 13:05:51:807 0000506b  WebSettingsProvider| Allow universal access from file URL
+I/APP     (20587): I 05/17/2016 13:05:51:809 0000506b        GoogleWebView| Adding new JS interface: genericImpl
+I/APP     (20587): I 05/17/2016 13:05:51:909 0000506b        GoogleWebView| Adding new JS interface: apdImpl
+I/APP     (20587): I 05/17/2016 13:05:51:910 0000506b        GoogleWebView| Adding new JS interface: nosipImpl
+I/APP     (20587): I 05/17/2016 13:05:51:911 0000506b        GoogleWebView| Adding new JS interface: metaReceiver
+I/APP     (20587): I 05/17/2016 13:05:51:912 0000506b    RhodesApplication| New UiState: MainActivityCreated
+I/APP     (20587): I 05/17/2016 13:05:51:915 0000506b    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (20587): I 05/17/2016 13:05:51:932 0000506b         SplashScreen| Process config: zoom
+I/APP     (20587): I 05/17/2016 13:05:51:932 0000506b         SplashScreen| Scale type: zoom
+I/APP     (20587): I 05/17/2016 13:05:51:932 0000506b         SplashScreen| Looking for start page source
+I/APP     (20587): I 05/17/2016 13:05:51:932 0000506b         SplashScreen| Loading image: apps/app/loading.png
+I/APP     (20587): I 05/17/2016 13:05:51:933 0000506b         SplashScreen| Specified splashscreen image is not found or supported. Setting the default splashscreen image.
+I/APP     (20587): I 05/17/2016 13:05:51:972 0000506b         SplashScreen| Done
+I/APP     (20587): I 05/17/2016 13:05:51:974 0000506b    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (20587): I 05/17/2016 13:05:51:976 0000506b BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume
+I/APP     (20587): I 05/17/2016 13:05:51:977 0000506b BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume--first resume
+I/APP     (20587): I 05/17/2016 13:05:52:009 0000506b BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume-BarcodeFactory-DW-false created 
+I/APP     (20587): I 05/17/2016 13:05:52:023 0000506b    LocalFileProvider| Revoke URI permissions: content://com.rhomobile.rhogeolocation
+I/APP     (20587): I 05/17/2016 13:05:52:024 0000506b               Rhodes| Loading...
+I/APP     (20587): I 05/17/2016 13:05:52:025 0000506b            RhodesApp| Trying to get free listening port.
+I/APP     (20587): I 05/17/2016 13:05:52:026 0000506b            RhodesApp| Trying to bind of 0 port...
+I/APP     (20587): I 05/17/2016 13:05:52:026 0000506b            RhodesApp| Got port to bind on: 34115
+I/APP     (20587): I 05/17/2016 13:05:52:026 0000506b            RhodesApp| Free listening port: 34115
+I/APP     (20587): I 05/17/2016 13:05:52:026 000050ae         AppCallbacks| Starting main routine...
+I/APP     (20587): I 05/17/2016 13:05:52:026 000050ae         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (20587): I 05/17/2016 13:05:52:039 0000506b            RhodesApp| callAppActiveCallback
+I/APP     (20587): I 05/17/2016 13:05:52:039 0000506b         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (20587): I 05/17/2016 13:05:52:040 000050ae         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (20587): I 05/17/2016 13:05:52:040 0000506b         AppActivated| Cannot commit now, application will be activated when started.
+I/APP     (20587): I 05/17/2016 13:05:52:040 0000506b    RhodesApplication| New AppState: Undefined
+I/APP     (20587): I 05/17/2016 13:05:52:040 000050ae         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (20587): I 05/17/2016 13:05:52:040 000050af            RhodesApp| Starting RhodesApp main routine...
+I/APP     (20587): I 05/17/2016 13:05:52:040 000050ae         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (20587): I 05/17/2016 13:05:52:040 000050af            RhodesApp| Starting pure JS application...
+I/APP     (20587): I 05/17/2016 13:05:52:040 000050af            RhodesApp| Init_RhoBlobs:/data/data/com.rhomobile.rhogeolocation/rhodata/db/db-files
+I/APP     (20587): I 05/17/2016 13:05:52:041 0000506b        RhodesService| handleCommand: startId=1, source=com.rhomobile.rhodes.BaseActivity
+I/APP     (20587): I 05/17/2016 13:05:52:047 000050af RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (20587): I 05/17/2016 13:05:52:067 0000506b         AppCallbacks| addCommand: UI-CREATED
+I/APP     (20587): I 05/17/2016 13:05:52:068 000050ae         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (20587): I 05/17/2016 13:05:52:068 000050ae         AppCallbacks| m_uistate: 0
+I/APP     (20587): I 05/17/2016 13:05:52:068 000050ae         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (20587): I 05/17/2016 13:05:52:068 000050ae         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (20587): I 05/17/2016 13:05:52:068 0000506b        GoogleWebView| Setting RhoWebChromeClient and RhoWebViewClient
+I/APP     (20587): I 05/17/2016 13:05:52:084 000050af                   DB| Open DB: /data/data/com.rhomobile.rhogeolocation/rhodata/db/syncdbuser.sqlite
+I/APP     (20587): I 05/17/2016 13:05:52:141 0000506b ConnectionChangeReceiver| LOGGER: Network status change, connected = true
+I/APP     (20587): E 05/17/2016 13:05:52:142 0000506b         RhodesAppJNI| nativeNotify
+I/APP     (20587): E 05/17/2016 13:05:52:142 0000506b            RhodesApp| enter notifyReceiver
+I/APP     (20587): E 05/17/2016 13:05:52:142 0000506b            RhodesApp| calling onNetworkStatusChanged
+I/APP     (20587): I 05/17/2016 13:05:52:143 0000506b       RhodesActivity| New start parameters: 
+I/APP     (20587): I 05/17/2016 13:05:52:144 0000506b            RhodesApp| New start params: 
+I/APP     (20587): I 05/17/2016 13:05:52:214 000050af            RhodesApp| Starting sync engine...
+I/APP     (20587): I 05/17/2016 13:05:52:214 000050af                 Sync| sync_poll_interval: 0
+I/APP     (20587): I 05/17/2016 13:05:52:214 000050af                 Sync| syncserver: 
+I/APP     (20587): I 05/17/2016 13:05:52:215 000050af                 Sync| bulksync_state: 0
+I/APP     (20587): I 05/17/2016 13:05:52:215 000050af           HttpServer| Start HTTP server
+I/APP     (20587): I 05/17/2016 13:05:52:216 000050af           HttpServer| Listen for connections on port 34115
+I/APP     (20587): I 05/17/2016 13:05:52:216 000050b5                 Sync| Starting main routine...
+I/APP     (20587): I 05/17/2016 13:05:52:216 000050af         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (20587): I 05/17/2016 13:05:52:216 000050ae         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (20587): I 05/17/2016 13:05:52:217 000050b5                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (20587): I 05/17/2016 13:05:52:217 000050ae         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (20587): I 05/17/2016 13:05:52:219 000050ae        GoogleWebView| applyWebSettings
+I/APP     (20587): I 05/17/2016 13:05:52:219 000050ae        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (20587): I 05/17/2016 13:05:52:224 000050ae  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (20587): I 05/17/2016 13:05:52:224 000050ae  WebSettingsProvider| Allow universal access from file URL
+I/APP     (20587): I 05/17/2016 13:05:52:225 000050ae    RhodesApplication| Inside runwhen before return
+I/APP     (20587): I 05/17/2016 13:05:52:225 000050ae         AppCallbacks| addCommand: UI-CREATED
+I/APP     (20587): I 05/17/2016 13:05:52:225 000050ae    RhodesApplication| New AppState: AppActivated
+I/APP     (20587): I 05/17/2016 13:05:52:225 000050ae         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (20587): I 05/17/2016 13:05:52:226 000050ae    RhodesApplication| Inside runwhen before return
+I/APP     (20587): I 05/17/2016 13:05:52:227 000050ae         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (20587): I 05/17/2016 13:05:52:227 000050ae         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (20587): I 05/17/2016 13:05:52:227 000050ae         AppCallbacks| m_uistate: 2
+I/APP     (20587): I 05/17/2016 13:05:52:228 000050ae         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (20587): I 05/17/2016 13:05:52:228 000050ae         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (20587): I 05/17/2016 13:05:52:319 0000506b       SimpleMainView| Cleared URL: http://127.0.0.1:34115/public/index.html
+I/APP     (20587): I 05/17/2016 13:05:52:321 0000506b     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (20587): I 05/17/2016 13:05:52:455 0000506b         MetaReceiver| QuitButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:05:52:456 0000506b         MetaReceiver| BackButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:05:52:456 0000506b         MetaReceiver| ForwardButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:05:52:456 0000506b         MetaReceiver| HomeButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:05:52:457 0000506b         MetaReceiver| ReloadButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:05:52:458 0000506b         MetaReceiver| ZoomTextButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:05:52:458 0000506b         MetaReceiver| SIPButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:05:52:458 0000506b         MetaReceiver| GoButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:05:52:459 0000506b         MetaReceiver| StopButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:05:52:460 0000506b         MetaReceiver| MinimizeButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:05:52:462 0000506b         MetaReceiver| AddressBar', 'top:50;visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:05:52:463 0000506b         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:05:52:514 000050af           HttpServer| Process URI: '/public/index.html'
+I/APP     (20587): I 05/17/2016 13:05:52:594 000050af           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I/APP     (20587): I 05/17/2016 13:05:52:600 000050af           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I/APP     (20587): I 05/17/2016 13:05:52:603 000050af           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I/APP     (20587): I 05/17/2016 13:05:52:607 000050af           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I/APP     (20587): I 05/17/2016 13:05:52:610 000050af           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I/APP     (20587): I 05/17/2016 13:05:52:620 000050af           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I/APP     (20587): I 05/17/2016 13:05:52:622 000050af           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I/APP     (20587): I 05/17/2016 13:05:52:626 000050af           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I/APP     (20587): I 05/17/2016 13:05:53:354 000050a8               NewORM| calling useNewOrm
+I/APP     (20587): I 05/17/2016 13:06:02:924 0000506b     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (20587): I 05/17/2016 13:06:02:924 0000506b         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:06:02:926 0000506b     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (20587): I 05/17/2016 13:06:02:935 000050a8         MetaReceiver| null', 'null'
+I/APP     (20587): I 05/17/2016 13:06:02:937 000050a8         MetaReceiver| null', 'initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width'
+I/APP     (20587): I 05/17/2016 13:06:02:939 000050a8         MetaReceiver| status', 'eom'
+I/APP     (20587): I 05/17/2016 13:06:02:945 00005174    RhodesApplication| Inside runwhen before return
+I/APP     (20587): I 05/17/2016 13:07:15:733 0000506b     RhoWebViewClient| Loading URL: http://127.0.0.1:34115/public/index.html
+I/APP     (20587): I 05/17/2016 13:07:15:737 0000506b     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (20587): I 05/17/2016 13:07:15:781 000050af           HttpServer| Process URI: '/public/index.html'
+I/APP     (20587): I 05/17/2016 13:07:15:943 000050af           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I/APP     (20587): I 05/17/2016 13:07:15:952 000050af           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I/APP     (20587): I 05/17/2016 13:07:15:992 000050af           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I/APP     (20587): I 05/17/2016 13:07:16:001 000050af           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I/APP     (20587): I 05/17/2016 13:07:16:032 000050af           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I/APP     (20587): I 05/17/2016 13:07:16:041 000050af           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I/APP     (20587): I 05/17/2016 13:07:16:045 000050af           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I/APP     (20587): I 05/17/2016 13:07:16:058 000050af           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I/APP     (20587): I 05/17/2016 13:07:16:702 000050a8               NewORM| calling useNewOrm
+I/APP     (20587): I 05/17/2016 13:07:22:489 0000506b     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (20587): I 05/17/2016 13:07:22:490 0000506b         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:07:22:491 0000506b     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (20587): I 05/17/2016 13:07:22:531 000050a8         MetaReceiver| null', 'null'
+I/APP     (20587): I 05/17/2016 13:07:22:533 000050a8         MetaReceiver| null', 'initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width'
+I/APP     (20587): I 05/17/2016 13:07:22:536 000050a8         MetaReceiver| status', 'eom'
+I/APP     (20587): I 05/17/2016 13:09:45:730 0000506b     RhoWebViewClient| Loading URL: http://127.0.0.1:34115/public/index.html
+I/APP     (20587): I 05/17/2016 13:09:45:735 0000506b     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (20587): I 05/17/2016 13:09:45:780 000050af           HttpServer| Process URI: '/public/index.html'
+I/APP     (20587): I 05/17/2016 13:09:45:946 000050af           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I/APP     (20587): I 05/17/2016 13:09:45:953 000050af           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I/APP     (20587): I 05/17/2016 13:09:45:956 000050af           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I/APP     (20587): I 05/17/2016 13:09:45:964 000050af           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I/APP     (20587): I 05/17/2016 13:09:45:971 000050af           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I/APP     (20587): I 05/17/2016 13:09:45:999 000050af           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I/APP     (20587): I 05/17/2016 13:09:46:020 000050af           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I/APP     (20587): I 05/17/2016 13:09:46:026 000050af           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I/APP     (20587): I 05/17/2016 13:09:46:733 000050a8               NewORM| calling useNewOrm
+I/APP     (20587): I 05/17/2016 13:09:56:142 0000506b     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (20587): I 05/17/2016 13:09:56:142 0000506b         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (20587): I 05/17/2016 13:09:56:143 0000506b     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (20587): I 05/17/2016 13:09:56:184 000050a8         MetaReceiver| null', 'null'
+I/APP     (20587): I 05/17/2016 13:09:56:188 000050a8         MetaReceiver| null', 'initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width'
+I/APP     (20587): I 05/17/2016 13:09:56:190 000050a8         MetaReceiver| status', 'eom'
+I/APP     (20587): I 05/17/2016 13:11:33:001 0000506b    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (20587): I 05/17/2016 13:11:33:047 0000506b    RhodesApplication| New AppState: AppDeactivated
+I/APP     (20587): I 05/17/2016 13:11:33:047 0000506b        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (20587): I 05/17/2016 13:11:33:049 0000506b            RhodesApp| callAppActiveCallback
+I/APP     (20587): I 05/17/2016 13:11:33:049 0000506b         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (20587): I 05/17/2016 13:11:33:050 000050ae         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (20587): I 05/17/2016 13:11:33:050 000050ae         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (20587): I 05/17/2016 13:11:33:050 000050ae         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (20587): I 05/17/2016 13:11:34:442 0000506b         ButtonPlugin| onShutdown+
+I/APP     (20587): I 05/17/2016 13:11:34:443 0000506b         ButtonPlugin| onShutdown+
+I/APP     (20587): I 05/17/2016 13:11:34:447 0000506b         ButtonPlugin| onShutdown+
+I/APP     (20587): I 05/17/2016 13:11:34:447 0000506b         ButtonPlugin| onShutdown+
+I/APP     (20587): I 05/17/2016 13:11:34:448 0000506b         ButtonPlugin| onShutdown+
+I/APP     (20587): I 05/17/2016 13:11:34:449 0000506b         ButtonPlugin| onShutdown+
+I/APP     (20587): I 05/17/2016 13:11:34:449 0000506b         ButtonPlugin| onShutdown+
+I/APP     (20587): I 05/17/2016 13:11:34:449 0000506b         ButtonPlugin| onShutdown+
+I/APP     (20587): I 05/17/2016 13:11:34:450 0000506b         ButtonPlugin| onShutdown+
+I/APP     (20587): I 05/17/2016 13:11:34:450 0000506b         ButtonPlugin| onShutdown+
+I/APP     (20587): I 05/17/2016 13:11:34:451 0000506b         ButtonPlugin| onShutdown+
+I/APP     (20587): I 05/17/2016 13:11:34:456 0000506b    RhodesApplication| New UiState: Undefined
+I/APP     (26570): I 05/17/2016 13:12:40:676 000067ca BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onCreateApplication
+I/APP     (26570): I 05/17/2016 13:12:40:680 000067ca    RhodesApplication| Initialized
+I/APP     (26570): I 05/17/2016 13:12:40:760 000067ca       RhodesActivity| Config path: /storage/emulated/0/Android/data/com.rhomobile.rhogeolocation/Config.xml
+I/APP     (26570): I 05/17/2016 13:12:40:761 000067ca       RhodesActivity| Loading Config.xml from resources
+I/APP     (26570): I 05/17/2016 13:12:41:078 000067ca         ElementsCore| RhoElements initializing...
+I/APP     (26570): I 05/17/2016 13:12:41:216 000067ca         ElementsCore| RhoElements initialized.
+I/APP     (26570): I 05/17/2016 13:12:41:218 000067ca    RhoExtManagerImpl| Creating Google web view !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+I/APP     (26570): I 05/17/2016 13:12:41:552 000067ca        GoogleWebView| Initialize Google WEbView staff
+I/APP     (26570): I 05/17/2016 13:12:41:561 000067ca        GoogleWebView| Adding new JS interface: __rhoNativeApi
+I/APP     (26570): I 05/17/2016 13:12:41:561 000067ca     WebViewSingleton| Set config initially: true
+I/APP     (26570): I 05/17/2016 13:12:41:561 000067ca        GoogleWebView| applyWebSettings
+I/APP     (26570): I 05/17/2016 13:12:41:562 000067ca        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (26570): I 05/17/2016 13:12:41:574 000067ca  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (26570): I 05/17/2016 13:12:41:577 000067ca  WebSettingsProvider| Allow universal access from file URL
+I/APP     (26570): I 05/17/2016 13:12:41:579 000067ca        GoogleWebView| Adding new JS interface: genericImpl
+I/APP     (26570): I 05/17/2016 13:12:41:669 000067ca        GoogleWebView| Adding new JS interface: apdImpl
+I/APP     (26570): I 05/17/2016 13:12:41:670 000067ca        GoogleWebView| Adding new JS interface: nosipImpl
+I/APP     (26570): I 05/17/2016 13:12:41:671 000067ca        GoogleWebView| Adding new JS interface: metaReceiver
+I/APP     (26570): I 05/17/2016 13:12:41:672 000067ca    RhodesApplication| New UiState: MainActivityCreated
+I/APP     (26570): I 05/17/2016 13:12:41:674 000067ca    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (26570): I 05/17/2016 13:12:41:693 000067ca         SplashScreen| Process config: zoom
+I/APP     (26570): I 05/17/2016 13:12:41:693 000067ca         SplashScreen| Scale type: zoom
+I/APP     (26570): I 05/17/2016 13:12:41:693 000067ca         SplashScreen| Looking for start page source
+I/APP     (26570): I 05/17/2016 13:12:41:694 000067ca         SplashScreen| Loading image: apps/app/loading.png
+I/APP     (26570): I 05/17/2016 13:12:41:695 000067ca         SplashScreen| Specified splashscreen image is not found or supported. Setting the default splashscreen image.
+I/APP     (26570): I 05/17/2016 13:12:41:735 000067ca         SplashScreen| Done
+I/APP     (26570): I 05/17/2016 13:12:41:737 000067ca    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (26570): I 05/17/2016 13:12:41:740 000067ca BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume
+I/APP     (26570): I 05/17/2016 13:12:41:740 000067ca BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume--first resume
+I/APP     (26570): I 05/17/2016 13:12:41:771 000067ca BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume-BarcodeFactory-DW-false created 
+I/APP     (26570): I 05/17/2016 13:12:41:787 000067ca    LocalFileProvider| Revoke URI permissions: content://com.rhomobile.rhogeolocation
+I/APP     (26570): I 05/17/2016 13:12:41:788 000067ca               Rhodes| Loading...
+I/APP     (26570): I 05/17/2016 13:12:41:788 000067ca            RhodesApp| Trying to get free listening port.
+I/APP     (26570): I 05/17/2016 13:12:41:789 000067ca            RhodesApp| Trying to bind of 0 port...
+I/APP     (26570): I 05/17/2016 13:12:41:789 000067ca            RhodesApp| Got port to bind on: 50184
+I/APP     (26570): I 05/17/2016 13:12:41:789 000067ca            RhodesApp| Free listening port: 50184
+I/APP     (26570): I 05/17/2016 13:12:41:790 00006815         AppCallbacks| Starting main routine...
+I/APP     (26570): I 05/17/2016 13:12:41:790 00006815         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26570): I 05/17/2016 13:12:41:802 000067ca            RhodesApp| callAppActiveCallback
+I/APP     (26570): I 05/17/2016 13:12:41:802 000067ca         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (26570): I 05/17/2016 13:12:41:802 00006815         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (26570): I 05/17/2016 13:12:41:802 000067ca         AppActivated| Cannot commit now, application will be activated when started.
+I/APP     (26570): I 05/17/2016 13:12:41:803 00006815         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (26570): I 05/17/2016 13:12:41:803 000067ca    RhodesApplication| New AppState: Undefined
+I/APP     (26570): I 05/17/2016 13:12:41:803 00006815         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26570): I 05/17/2016 13:12:41:803 000067ca        RhodesService| handleCommand: startId=1, source=com.rhomobile.rhodes.BaseActivity
+I/APP     (26570): I 05/17/2016 13:12:41:804 00006816            RhodesApp| Starting RhodesApp main routine...
+I/APP     (26570): I 05/17/2016 13:12:41:804 00006816            RhodesApp| Starting pure JS application...
+I/APP     (26570): I 05/17/2016 13:12:41:804 00006816            RhodesApp| Init_RhoBlobs:/data/data/com.rhomobile.rhogeolocation/rhodata/db/db-files
+I/APP     (26570): I 05/17/2016 13:12:41:811 00006816 RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (26570): I 05/17/2016 13:12:41:835 000067ca         AppCallbacks| addCommand: UI-CREATED
+I/APP     (26570): I 05/17/2016 13:12:41:835 00006815         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (26570): I 05/17/2016 13:12:41:835 000067ca        GoogleWebView| Setting RhoWebChromeClient and RhoWebViewClient
+I/APP     (26570): I 05/17/2016 13:12:41:835 00006815         AppCallbacks| m_uistate: 0
+I/APP     (26570): I 05/17/2016 13:12:41:836 00006815         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (26570): I 05/17/2016 13:12:41:836 00006815         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26570): I 05/17/2016 13:12:41:856 00006816                   DB| Open DB: /data/data/com.rhomobile.rhogeolocation/rhodata/db/syncdbuser.sqlite
+I/APP     (26570): I 05/17/2016 13:12:41:915 000067ca ConnectionChangeReceiver| LOGGER: Network status change, connected = true
+I/APP     (26570): E 05/17/2016 13:12:41:916 000067ca         RhodesAppJNI| nativeNotify
+I/APP     (26570): E 05/17/2016 13:12:41:916 000067ca            RhodesApp| enter notifyReceiver
+I/APP     (26570): E 05/17/2016 13:12:41:916 000067ca            RhodesApp| calling onNetworkStatusChanged
+I/APP     (26570): I 05/17/2016 13:12:41:916 000067ca       RhodesActivity| New start parameters: 
+I/APP     (26570): I 05/17/2016 13:12:41:916 000067ca            RhodesApp| New start params: 
+I/APP     (26570): I 05/17/2016 13:12:42:027 00006816            RhodesApp| Starting sync engine...
+I/APP     (26570): I 05/17/2016 13:12:42:027 00006816                 Sync| sync_poll_interval: 0
+I/APP     (26570): I 05/17/2016 13:12:42:027 00006816                 Sync| syncserver: 
+I/APP     (26570): I 05/17/2016 13:12:42:027 00006816                 Sync| bulksync_state: 0
+I/APP     (26570): I 05/17/2016 13:12:42:028 00006816           HttpServer| Start HTTP server
+I/APP     (26570): I 05/17/2016 13:12:42:028 00006816           HttpServer| Listen for connections on port 50184
+I/APP     (26570): I 05/17/2016 13:12:42:028 00006816         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (26570): I 05/17/2016 13:12:42:028 0000681c                 Sync| Starting main routine...
+I/APP     (26570): I 05/17/2016 13:12:42:029 00006815         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (26570): I 05/17/2016 13:12:42:029 00006815         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26570): I 05/17/2016 13:12:42:029 0000681c                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26570): I 05/17/2016 13:12:42:031 00006815        GoogleWebView| applyWebSettings
+I/APP     (26570): I 05/17/2016 13:12:42:032 00006815        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (26570): I 05/17/2016 13:12:42:038 00006815  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (26570): I 05/17/2016 13:12:42:039 00006815  WebSettingsProvider| Allow universal access from file URL
+I/APP     (26570): I 05/17/2016 13:12:42:039 00006815    RhodesApplication| Inside runwhen before return
+I/APP     (26570): I 05/17/2016 13:12:42:039 00006815         AppCallbacks| addCommand: UI-CREATED
+I/APP     (26570): I 05/17/2016 13:12:42:040 00006815    RhodesApplication| New AppState: AppActivated
+I/APP     (26570): I 05/17/2016 13:12:42:040 00006815         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26570): I 05/17/2016 13:12:42:042 00006815    RhodesApplication| Inside runwhen before return
+I/APP     (26570): I 05/17/2016 13:12:42:043 00006815         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26570): I 05/17/2016 13:12:42:043 00006815         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (26570): I 05/17/2016 13:12:42:044 00006815         AppCallbacks| m_uistate: 2
+I/APP     (26570): I 05/17/2016 13:12:42:044 00006815         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26570): I 05/17/2016 13:12:42:045 00006815         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26570): I 05/17/2016 13:12:42:080 000067ca       SimpleMainView| Cleared URL: http://127.0.0.1:50184/public/index.html
+I/APP     (26570): I 05/17/2016 13:12:42:081 000067ca     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (26570): I 05/17/2016 13:12:42:205 000067ca         MetaReceiver| QuitButton', 'Visibility:hidden'
+I/APP     (26570): I 05/17/2016 13:12:42:205 000067ca         MetaReceiver| BackButton', 'Visibility:hidden'
+I/APP     (26570): I 05/17/2016 13:12:42:205 000067ca         MetaReceiver| ForwardButton', 'Visibility:hidden'
+I/APP     (26570): I 05/17/2016 13:12:42:207 000067ca         MetaReceiver| HomeButton', 'Visibility:hidden'
+I/APP     (26570): I 05/17/2016 13:12:42:207 000067ca         MetaReceiver| ReloadButton', 'Visibility:hidden'
+I/APP     (26570): I 05/17/2016 13:12:42:208 000067ca         MetaReceiver| ZoomTextButton', 'Visibility:hidden'
+I/APP     (26570): I 05/17/2016 13:12:42:209 000067ca         MetaReceiver| SIPButton', 'Visibility:hidden'
+I/APP     (26570): I 05/17/2016 13:12:42:209 000067ca         MetaReceiver| GoButton', 'Visibility:hidden'
+I/APP     (26570): I 05/17/2016 13:12:42:209 000067ca         MetaReceiver| StopButton', 'Visibility:hidden'
+I/APP     (26570): I 05/17/2016 13:12:42:210 000067ca         MetaReceiver| MinimizeButton', 'Visibility:hidden'
+I/APP     (26570): I 05/17/2016 13:12:42:211 000067ca         MetaReceiver| AddressBar', 'top:50;visibility:hidden'
+I/APP     (26570): I 05/17/2016 13:12:42:211 000067ca         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (26570): I 05/17/2016 13:12:42:256 00006816           HttpServer| Process URI: '/public/index.html'
+I/APP     (26570): I 05/17/2016 13:12:42:337 00006816           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I/APP     (26570): I 05/17/2016 13:12:42:346 00006816           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I/APP     (26570): I 05/17/2016 13:12:42:349 00006816           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I/APP     (26570): I 05/17/2016 13:12:42:355 00006816           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I/APP     (26570): I 05/17/2016 13:12:42:360 00006816           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I/APP     (26570): I 05/17/2016 13:12:42:370 00006816           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I/APP     (26570): I 05/17/2016 13:12:42:374 00006816           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I/APP     (26570): I 05/17/2016 13:12:42:383 00006816           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I/APP     (26570): I 05/17/2016 13:12:43:112 00006810               NewORM| calling useNewOrm
+I/APP     (26570): I 05/17/2016 13:12:50:136 000067ca     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26570): I 05/17/2016 13:12:50:136 000067ca         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (26570): I 05/17/2016 13:12:50:143 000067ca     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (26570): I 05/17/2016 13:12:50:152 000068a2    RhodesApplication| Inside runwhen before return
+I/APP     (26570): I 05/17/2016 13:12:50:154 00006810         MetaReceiver| null', 'null'
+I/APP     (26570): I 05/17/2016 13:12:50:160 00006810         MetaReceiver| null', 'initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width'
+I/APP     (26570): I 05/17/2016 13:12:50:161 00006810         MetaReceiver| status', 'eom'
+I/APP     (26570): I 05/17/2016 13:23:39:296 000067ca    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (26570): I 05/17/2016 13:23:39:388 000067ca    RhodesApplication| New AppState: AppDeactivated
+I/APP     (26570): I 05/17/2016 13:23:39:389 000067ca        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (26570): I 05/17/2016 13:23:39:390 000067ca            RhodesApp| callAppActiveCallback
+I/APP     (26570): I 05/17/2016 13:23:39:391 000067ca         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (26570): I 05/17/2016 13:23:39:393 00006815         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (26570): I 05/17/2016 13:23:39:393 00006815         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26570): I 05/17/2016 13:23:39:393 00006815         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26570): I 05/17/2016 13:24:34:433 000067ca            RhodesApp| callAppActiveCallback
+I/APP     (26570): I 05/17/2016 13:24:34:434 000067ca         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (26570): I 05/17/2016 13:24:34:434 00006815         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (26570): I 05/17/2016 13:24:34:434 00006815         AppCallbacks| Restart local server ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (26570): I 05/17/2016 13:24:34:434 00006815            RhodesApp| restart local server.
+I/APP     (26570): I 05/17/2016 13:24:34:434 00006815           HttpServer| Stopping server...
+I/APP     (26570): I 05/17/2016 13:24:34:436 000067ca    RhodesApplication| New AppState: AppActivated
+I/APP     (26570): I 05/17/2016 13:24:34:437 000067ca    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (26570): I 05/17/2016 13:24:34:440 000067ca        GoogleWebView| applyWebSettings
+I/APP     (26570): I 05/17/2016 13:24:34:440 00006816           HttpServer| Start HTTP server
+I/APP     (26570): I 05/17/2016 13:24:34:440 000067ca        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (26570): I 05/17/2016 13:24:34:440 00006816           HttpServer| Listen for connections on port 50184
+I/APP     (26570): I 05/17/2016 13:24:34:440 00006816         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (26570): I 05/17/2016 13:24:34:443 000067ca  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (26570): I 05/17/2016 13:24:34:445 000067ca  WebSettingsProvider| Allow universal access from file URL
+I/APP     (26570): I 05/17/2016 13:24:34:445 000067ca    RhodesApplication| Inside runwhen before return
+I/APP     (26570): I 05/17/2016 13:24:34:445 000067ca         AppCallbacks| addCommand: UI-CREATED
+I/APP     (26570): I 05/17/2016 13:24:34:490 00006815         AppCallbacks| Continue after server restart =======================================
+I/APP     (26570): I 05/17/2016 13:24:34:490 00006815         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (26570): I 05/17/2016 13:24:34:490 00006815         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (26570): I 05/17/2016 13:24:34:494 00006815         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26570): I 05/17/2016 13:24:34:496 00006815    RhodesApplication| New AppState: AppActivated
+I/APP     (26570): I 05/17/2016 13:24:34:497 00006815         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26570): I 05/17/2016 13:24:34:497 00006815         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (26570): I 05/17/2016 13:24:34:498 00006815         AppCallbacks| m_uistate: 2
+I/APP     (26570): I 05/17/2016 13:24:34:498 00006815         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26570): I 05/17/2016 13:24:34:498 00006815         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26570): I 05/17/2016 13:24:34:516 000067ca    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (26570): I 05/17/2016 13:24:34:528 000067ca BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume
+I/APP     (26570): I 05/17/2016 13:28:07:328 000067ca    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (26570): I 05/17/2016 13:28:07:383 000067ca    RhodesApplication| New AppState: AppDeactivated
+I/APP     (26570): I 05/17/2016 13:28:07:383 000067ca        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (26570): I 05/17/2016 13:28:07:384 000067ca            RhodesApp| callAppActiveCallback
+I/APP     (26570): I 05/17/2016 13:28:07:385 000067ca         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (26570): I 05/17/2016 13:28:07:386 00006815         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (26570): I 05/17/2016 13:28:07:386 00006815         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (26570): I 05/17/2016 13:28:07:386 00006815         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (26570): I 05/17/2016 13:28:08:999 000067ca         ButtonPlugin| onShutdown+
+I/APP     (26570): I 05/17/2016 13:28:08:999 000067ca         ButtonPlugin| onShutdown+
+I/APP     (26570): I 05/17/2016 13:28:09:000 000067ca         ButtonPlugin| onShutdown+
+I/APP     (26570): I 05/17/2016 13:28:09:001 000067ca         ButtonPlugin| onShutdown+
+I/APP     (26570): I 05/17/2016 13:28:09:002 000067ca         ButtonPlugin| onShutdown+
+I/APP     (26570): I 05/17/2016 13:28:09:004 000067ca         ButtonPlugin| onShutdown+
+I/APP     (26570): I 05/17/2016 13:28:09:005 000067ca         ButtonPlugin| onShutdown+
+I/APP     (26570): I 05/17/2016 13:28:09:006 000067ca         ButtonPlugin| onShutdown+
+I/APP     (26570): I 05/17/2016 13:28:09:006 000067ca         ButtonPlugin| onShutdown+
+I/APP     (26570): I 05/17/2016 13:28:09:007 000067ca         ButtonPlugin| onShutdown+
+I/APP     (26570): I 05/17/2016 13:28:09:008 000067ca         ButtonPlugin| onShutdown+
+I/APP     (26570): I 05/17/2016 13:28:09:012 000067ca    RhodesApplication| New UiState: Undefined
+I/APP     ( 5912): I 05/17/2016 13:29:16:736 00001718 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onCreateApplication
+I/APP     ( 5912): I 05/17/2016 13:29:16:739 00001718    RhodesApplication| Initialized
+I/APP     ( 5912): I 05/17/2016 13:29:16:841 00001718       RhodesActivity| Config path: /storage/emulated/0/Android/data/com.rhomobile.rhogeolocation/Config.xml
+I/APP     ( 5912): I 05/17/2016 13:29:16:842 00001718       RhodesActivity| Loading Config.xml from resources
+I/APP     ( 5912): I 05/17/2016 13:29:17:168 00001718         ElementsCore| RhoElements initializing...
+I/APP     ( 5912): I 05/17/2016 13:29:17:299 00001718         ElementsCore| RhoElements initialized.
+I/APP     ( 5912): I 05/17/2016 13:29:17:301 00001718    RhoExtManagerImpl| Creating Google web view !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+I/APP     ( 5912): I 05/17/2016 13:29:17:603 00001718        GoogleWebView| Initialize Google WEbView staff
+I/APP     ( 5912): I 05/17/2016 13:29:17:611 00001718        GoogleWebView| Adding new JS interface: __rhoNativeApi
+I/APP     ( 5912): I 05/17/2016 13:29:17:612 00001718     WebViewSingleton| Set config initially: true
+I/APP     ( 5912): I 05/17/2016 13:29:17:612 00001718        GoogleWebView| applyWebSettings
+I/APP     ( 5912): I 05/17/2016 13:29:17:612 00001718        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     ( 5912): I 05/17/2016 13:29:17:615 00001718  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     ( 5912): I 05/17/2016 13:29:17:618 00001718  WebSettingsProvider| Allow universal access from file URL
+I/APP     ( 5912): I 05/17/2016 13:29:17:620 00001718        GoogleWebView| Adding new JS interface: genericImpl
+I/APP     ( 5912): I 05/17/2016 13:29:17:724 00001718        GoogleWebView| Adding new JS interface: apdImpl
+I/APP     ( 5912): I 05/17/2016 13:29:17:725 00001718        GoogleWebView| Adding new JS interface: nosipImpl
+I/APP     ( 5912): I 05/17/2016 13:29:17:725 00001718        GoogleWebView| Adding new JS interface: metaReceiver
+I/APP     ( 5912): I 05/17/2016 13:29:17:727 00001718    RhodesApplication| New UiState: MainActivityCreated
+I/APP     ( 5912): I 05/17/2016 13:29:17:728 00001718    RhodesApplication| New UiState: MainActivityStarted
+I/APP     ( 5912): I 05/17/2016 13:29:17:746 00001718         SplashScreen| Process config: zoom
+I/APP     ( 5912): I 05/17/2016 13:29:17:746 00001718         SplashScreen| Scale type: zoom
+I/APP     ( 5912): I 05/17/2016 13:29:17:746 00001718         SplashScreen| Looking for start page source
+I/APP     ( 5912): I 05/17/2016 13:29:17:747 00001718         SplashScreen| Loading image: apps/app/loading.png
+I/APP     ( 5912): I 05/17/2016 13:29:17:747 00001718         SplashScreen| Specified splashscreen image is not found or supported. Setting the default splashscreen image.
+I/APP     ( 5912): I 05/17/2016 13:29:17:798 00001718         SplashScreen| Done
+I/APP     ( 5912): I 05/17/2016 13:29:17:799 00001718    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     ( 5912): I 05/17/2016 13:29:17:802 00001718 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume
+I/APP     ( 5912): I 05/17/2016 13:29:17:802 00001718 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume--first resume
+I/APP     ( 5912): I 05/17/2016 13:29:17:835 00001718 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume-BarcodeFactory-DW-false created 
+I/APP     ( 5912): I 05/17/2016 13:29:17:850 00001718    LocalFileProvider| Revoke URI permissions: content://com.rhomobile.rhogeolocation
+I/APP     ( 5912): I 05/17/2016 13:29:17:851 00001718               Rhodes| Loading...
+I/APP     ( 5912): I 05/17/2016 13:29:17:851 00001718            RhodesApp| Trying to get free listening port.
+I/APP     ( 5912): I 05/17/2016 13:29:17:852 00001718            RhodesApp| Trying to bind of 0 port...
+I/APP     ( 5912): I 05/17/2016 13:29:17:852 00001718            RhodesApp| Got port to bind on: 42210
+I/APP     ( 5912): I 05/17/2016 13:29:17:852 00001718            RhodesApp| Free listening port: 42210
+I/APP     ( 5912): I 05/17/2016 13:29:17:854 0000175f         AppCallbacks| Starting main routine...
+I/APP     ( 5912): I 05/17/2016 13:29:17:854 0000175f         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 5912): I 05/17/2016 13:29:17:866 00001718            RhodesApp| callAppActiveCallback
+I/APP     ( 5912): I 05/17/2016 13:29:17:866 00001718         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     ( 5912): I 05/17/2016 13:29:17:866 0000175f         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     ( 5912): I 05/17/2016 13:29:17:866 00001718         AppActivated| Cannot commit now, application will be activated when started.
+I/APP     ( 5912): I 05/17/2016 13:29:17:867 00001760            RhodesApp| Starting RhodesApp main routine...
+I/APP     ( 5912): I 05/17/2016 13:29:17:867 00001718    RhodesApplication| New AppState: Undefined
+I/APP     ( 5912): I 05/17/2016 13:29:17:867 00001760            RhodesApp| Starting pure JS application...
+I/APP     ( 5912): I 05/17/2016 13:29:17:867 00001760            RhodesApp| Init_RhoBlobs:/data/data/com.rhomobile.rhogeolocation/rhodata/db/db-files
+I/APP     ( 5912): I 05/17/2016 13:29:17:867 0000175f         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     ( 5912): I 05/17/2016 13:29:17:867 00001718        RhodesService| handleCommand: startId=1, source=com.rhomobile.rhodes.BaseActivity
+I/APP     ( 5912): I 05/17/2016 13:29:17:867 0000175f         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 5912): I 05/17/2016 13:29:17:875 00001760 RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     ( 5912): I 05/17/2016 13:29:17:894 00001718         AppCallbacks| addCommand: UI-CREATED
+I/APP     ( 5912): I 05/17/2016 13:29:17:895 0000175f         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     ( 5912): I 05/17/2016 13:29:17:895 0000175f         AppCallbacks| m_uistate: 0
+I/APP     ( 5912): I 05/17/2016 13:29:17:895 0000175f         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     ( 5912): I 05/17/2016 13:29:17:896 0000175f         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 5912): I 05/17/2016 13:29:17:896 00001718        GoogleWebView| Setting RhoWebChromeClient and RhoWebViewClient
+I/APP     ( 5912): I 05/17/2016 13:29:17:913 00001760                   DB| Open DB: /data/data/com.rhomobile.rhogeolocation/rhodata/db/syncdbuser.sqlite
+I/APP     ( 5912): I 05/17/2016 13:29:17:974 00001718 ConnectionChangeReceiver| LOGGER: Network status change, connected = true
+I/APP     ( 5912): E 05/17/2016 13:29:17:975 00001718         RhodesAppJNI| nativeNotify
+I/APP     ( 5912): E 05/17/2016 13:29:17:975 00001718            RhodesApp| enter notifyReceiver
+I/APP     ( 5912): E 05/17/2016 13:29:17:976 00001718            RhodesApp| calling onNetworkStatusChanged
+I/APP     ( 5912): I 05/17/2016 13:29:17:976 00001718       RhodesActivity| New start parameters: 
+I/APP     ( 5912): I 05/17/2016 13:29:17:976 00001718            RhodesApp| New start params: 
+I/APP     ( 5912): I 05/17/2016 13:29:18:047 00001760            RhodesApp| Starting sync engine...
+I/APP     ( 5912): I 05/17/2016 13:29:18:048 00001760                 Sync| sync_poll_interval: 0
+I/APP     ( 5912): I 05/17/2016 13:29:18:048 00001760                 Sync| syncserver: 
+I/APP     ( 5912): I 05/17/2016 13:29:18:048 00001760                 Sync| bulksync_state: 0
+I/APP     ( 5912): I 05/17/2016 13:29:18:048 00001760           HttpServer| Start HTTP server
+I/APP     ( 5912): I 05/17/2016 13:29:18:049 00001760           HttpServer| Listen for connections on port 42210
+I/APP     ( 5912): I 05/17/2016 13:29:18:049 00001760         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     ( 5912): I 05/17/2016 13:29:18:049 0000175f         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     ( 5912): I 05/17/2016 13:29:18:049 0000175f         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 5912): I 05/17/2016 13:29:18:050 0000176a                 Sync| Starting main routine...
+I/APP     ( 5912): I 05/17/2016 13:29:18:051 0000175f        GoogleWebView| applyWebSettings
+I/APP     ( 5912): I 05/17/2016 13:29:18:051 0000176a                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 5912): I 05/17/2016 13:29:18:052 0000175f        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     ( 5912): I 05/17/2016 13:29:18:056 0000175f  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     ( 5912): I 05/17/2016 13:29:18:057 0000175f  WebSettingsProvider| Allow universal access from file URL
+I/APP     ( 5912): I 05/17/2016 13:29:18:057 0000175f    RhodesApplication| Inside runwhen before return
+I/APP     ( 5912): I 05/17/2016 13:29:18:058 0000175f         AppCallbacks| addCommand: UI-CREATED
+I/APP     ( 5912): I 05/17/2016 13:29:18:058 0000175f    RhodesApplication| New AppState: AppActivated
+I/APP     ( 5912): I 05/17/2016 13:29:18:058 0000175f         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 5912): I 05/17/2016 13:29:18:059 0000175f    RhodesApplication| Inside runwhen before return
+I/APP     ( 5912): I 05/17/2016 13:29:18:060 0000175f         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 5912): I 05/17/2016 13:29:18:060 0000175f         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     ( 5912): I 05/17/2016 13:29:18:060 0000175f         AppCallbacks| m_uistate: 2
+I/APP     ( 5912): I 05/17/2016 13:29:18:060 0000175f         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 5912): I 05/17/2016 13:29:18:061 0000175f         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 5912): I 05/17/2016 13:29:18:153 00001718       SimpleMainView| Cleared URL: http://127.0.0.1:42210/public/index.html
+I/APP     ( 5912): I 05/17/2016 13:29:18:155 00001718     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     ( 5912): I 05/17/2016 13:29:18:297 00001718         MetaReceiver| QuitButton', 'Visibility:hidden'
+I/APP     ( 5912): I 05/17/2016 13:29:18:297 00001718         MetaReceiver| BackButton', 'Visibility:hidden'
+I/APP     ( 5912): I 05/17/2016 13:29:18:297 00001718         MetaReceiver| ForwardButton', 'Visibility:hidden'
+I/APP     ( 5912): I 05/17/2016 13:29:18:298 00001718         MetaReceiver| HomeButton', 'Visibility:hidden'
+I/APP     ( 5912): I 05/17/2016 13:29:18:298 00001718         MetaReceiver| ReloadButton', 'Visibility:hidden'
+I/APP     ( 5912): I 05/17/2016 13:29:18:298 00001718         MetaReceiver| ZoomTextButton', 'Visibility:hidden'
+I/APP     ( 5912): I 05/17/2016 13:29:18:298 00001718         MetaReceiver| SIPButton', 'Visibility:hidden'
+I/APP     ( 5912): I 05/17/2016 13:29:18:298 00001718         MetaReceiver| GoButton', 'Visibility:hidden'
+I/APP     ( 5912): I 05/17/2016 13:29:18:298 00001718         MetaReceiver| StopButton', 'Visibility:hidden'
+I/APP     ( 5912): I 05/17/2016 13:29:18:298 00001718         MetaReceiver| MinimizeButton', 'Visibility:hidden'
+I/APP     ( 5912): I 05/17/2016 13:29:18:298 00001718         MetaReceiver| AddressBar', 'top:50;visibility:hidden'
+I/APP     ( 5912): I 05/17/2016 13:29:18:299 00001718         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     ( 5912): I 05/17/2016 13:29:18:358 00001760           HttpServer| Process URI: '/public/index.html'
+I/APP     ( 5912): I 05/17/2016 13:29:18:428 00001760           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I/APP     ( 5912): I 05/17/2016 13:29:18:440 00001760           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I/APP     ( 5912): I 05/17/2016 13:29:18:446 00001760           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I/APP     ( 5912): I 05/17/2016 13:29:18:452 00001760           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I/APP     ( 5912): I 05/17/2016 13:29:18:455 00001760           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I/APP     ( 5912): I 05/17/2016 13:29:18:467 00001760           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I/APP     ( 5912): I 05/17/2016 13:29:18:473 00001760           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I/APP     ( 5912): I 05/17/2016 13:29:18:478 00001760           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I/APP     ( 5912): I 05/17/2016 13:29:19:200 00001758               NewORM| calling useNewOrm
+I/APP     ( 5912): I 05/17/2016 13:29:37:309 00001718     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 5912): I 05/17/2016 13:29:37:310 00001718         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     ( 5912): I 05/17/2016 13:29:37:311 00001718     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     ( 5912): I 05/17/2016 13:29:37:317 00001758         MetaReceiver| null', 'null'
+I/APP     ( 5912): I 05/17/2016 13:29:37:317 000018bf    RhodesApplication| Inside runwhen before return
+I/APP     ( 5912): I 05/17/2016 13:29:37:318 00001758         MetaReceiver| null', 'initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width'
+I/APP     ( 5912): I 05/17/2016 13:29:37:321 00001758         MetaReceiver| status', 'eom'
+I/APP     ( 5912): I 05/17/2016 13:32:47:004 00001718    RhodesApplication| New UiState: MainActivityPaused
+I/APP     ( 5912): I 05/17/2016 13:32:47:067 00001718    RhodesApplication| New AppState: AppDeactivated
+I/APP     ( 5912): I 05/17/2016 13:32:47:067 00001718        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     ( 5912): I 05/17/2016 13:32:47:068 00001718            RhodesApp| callAppActiveCallback
+I/APP     ( 5912): I 05/17/2016 13:32:47:068 00001718         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     ( 5912): I 05/17/2016 13:32:47:069 0000175f         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     ( 5912): I 05/17/2016 13:32:47:069 0000175f         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 5912): I 05/17/2016 13:32:47:070 0000175f         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 5912): I 05/17/2016 13:32:48:734 00001718         ButtonPlugin| onShutdown+
+I/APP     ( 5912): I 05/17/2016 13:32:48:736 00001718         ButtonPlugin| onShutdown+
+I/APP     ( 5912): I 05/17/2016 13:32:48:737 00001718         ButtonPlugin| onShutdown+
+I/APP     ( 5912): I 05/17/2016 13:32:48:738 00001718         ButtonPlugin| onShutdown+
+I/APP     ( 5912): I 05/17/2016 13:32:48:738 00001718         ButtonPlugin| onShutdown+
+I/APP     ( 5912): I 05/17/2016 13:32:48:738 00001718         ButtonPlugin| onShutdown+
+I/APP     ( 5912): I 05/17/2016 13:32:48:739 00001718         ButtonPlugin| onShutdown+
+I/APP     ( 5912): I 05/17/2016 13:32:48:739 00001718         ButtonPlugin| onShutdown+
+I/APP     ( 5912): I 05/17/2016 13:32:48:740 00001718         ButtonPlugin| onShutdown+
+I/APP     ( 5912): I 05/17/2016 13:32:48:741 00001718         ButtonPlugin| onShutdown+
+I/APP     ( 5912): I 05/17/2016 13:32:48:741 00001718         ButtonPlugin| onShutdown+
+I/APP     ( 5912): I 05/17/2016 13:32:48:746 00001718    RhodesApplication| New UiState: Undefined
+I/APP     ( 9509): I 05/17/2016 13:33:58:668 00002525 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onCreateApplication
+I/APP     ( 9509): I 05/17/2016 13:33:58:671 00002525    RhodesApplication| Initialized
+I/APP     ( 9509): I 05/17/2016 13:33:58:749 00002525       RhodesActivity| Config path: /storage/emulated/0/Android/data/com.rhomobile.rhogeolocation/Config.xml
+I/APP     ( 9509): I 05/17/2016 13:33:58:750 00002525       RhodesActivity| Loading Config.xml from resources
+I/APP     ( 9509): I 05/17/2016 13:33:59:052 00002525         ElementsCore| RhoElements initializing...
+I/APP     ( 9509): I 05/17/2016 13:33:59:203 00002525         ElementsCore| RhoElements initialized.
+I/APP     ( 9509): I 05/17/2016 13:33:59:205 00002525    RhoExtManagerImpl| Creating Google web view !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+I/APP     ( 9509): I 05/17/2016 13:33:59:518 00002525        GoogleWebView| Initialize Google WEbView staff
+I/APP     ( 9509): I 05/17/2016 13:33:59:527 00002525        GoogleWebView| Adding new JS interface: __rhoNativeApi
+I/APP     ( 9509): I 05/17/2016 13:33:59:527 00002525     WebViewSingleton| Set config initially: true
+I/APP     ( 9509): I 05/17/2016 13:33:59:527 00002525        GoogleWebView| applyWebSettings
+I/APP     ( 9509): I 05/17/2016 13:33:59:527 00002525        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     ( 9509): I 05/17/2016 13:33:59:530 00002525  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     ( 9509): I 05/17/2016 13:33:59:534 00002525  WebSettingsProvider| Allow universal access from file URL
+I/APP     ( 9509): I 05/17/2016 13:33:59:535 00002525        GoogleWebView| Adding new JS interface: genericImpl
+I/APP     ( 9509): I 05/17/2016 13:33:59:639 00002525        GoogleWebView| Adding new JS interface: apdImpl
+I/APP     ( 9509): I 05/17/2016 13:33:59:640 00002525        GoogleWebView| Adding new JS interface: nosipImpl
+I/APP     ( 9509): I 05/17/2016 13:33:59:641 00002525        GoogleWebView| Adding new JS interface: metaReceiver
+I/APP     ( 9509): I 05/17/2016 13:33:59:643 00002525    RhodesApplication| New UiState: MainActivityCreated
+I/APP     ( 9509): I 05/17/2016 13:33:59:654 00002525    RhodesApplication| New UiState: MainActivityStarted
+I/APP     ( 9509): I 05/17/2016 13:33:59:671 00002525         SplashScreen| Process config: zoom
+I/APP     ( 9509): I 05/17/2016 13:33:59:671 00002525         SplashScreen| Scale type: zoom
+I/APP     ( 9509): I 05/17/2016 13:33:59:671 00002525         SplashScreen| Looking for start page source
+I/APP     ( 9509): I 05/17/2016 13:33:59:671 00002525         SplashScreen| Loading image: apps/app/loading.png
+I/APP     ( 9509): I 05/17/2016 13:33:59:672 00002525         SplashScreen| Specified splashscreen image is not found or supported. Setting the default splashscreen image.
+I/APP     ( 9509): I 05/17/2016 13:33:59:711 00002525         SplashScreen| Done
+I/APP     ( 9509): I 05/17/2016 13:33:59:713 00002525    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     ( 9509): I 05/17/2016 13:33:59:715 00002525 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume
+I/APP     ( 9509): I 05/17/2016 13:33:59:715 00002525 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume--first resume
+I/APP     ( 9509): I 05/17/2016 13:33:59:747 00002525 BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume-BarcodeFactory-DW-false created 
+I/APP     ( 9509): I 05/17/2016 13:33:59:762 00002525    LocalFileProvider| Revoke URI permissions: content://com.rhomobile.rhogeolocation
+I/APP     ( 9509): I 05/17/2016 13:33:59:763 00002525               Rhodes| Loading...
+I/APP     ( 9509): I 05/17/2016 13:33:59:765 00002525            RhodesApp| Trying to get free listening port.
+I/APP     ( 9509): I 05/17/2016 13:33:59:766 0000256d         AppCallbacks| Starting main routine...
+I/APP     ( 9509): I 05/17/2016 13:33:59:766 00002525            RhodesApp| Trying to bind of 0 port...
+I/APP     ( 9509): I 05/17/2016 13:33:59:766 0000256d         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 9509): I 05/17/2016 13:33:59:767 00002525            RhodesApp| Got port to bind on: 49800
+I/APP     ( 9509): I 05/17/2016 13:33:59:767 00002525            RhodesApp| Free listening port: 49800
+I/APP     ( 9509): I 05/17/2016 13:33:59:784 00002525            RhodesApp| callAppActiveCallback
+I/APP     ( 9509): I 05/17/2016 13:33:59:784 00002525         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     ( 9509): I 05/17/2016 13:33:59:784 00002525         AppActivated| Cannot commit now, application will be activated when started.
+I/APP     ( 9509): I 05/17/2016 13:33:59:784 00002525    RhodesApplication| New AppState: Undefined
+I/APP     ( 9509): I 05/17/2016 13:33:59:785 0000256e            RhodesApp| Starting RhodesApp main routine...
+I/APP     ( 9509): I 05/17/2016 13:33:59:785 0000256e            RhodesApp| Starting pure JS application...
+I/APP     ( 9509): I 05/17/2016 13:33:59:785 0000256d         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     ( 9509): I 05/17/2016 13:33:59:785 0000256d         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     ( 9509): I 05/17/2016 13:33:59:785 0000256d         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 9509): I 05/17/2016 13:33:59:785 0000256e            RhodesApp| Init_RhoBlobs:/data/data/com.rhomobile.rhogeolocation/rhodata/db/db-files
+I/APP     ( 9509): I 05/17/2016 13:33:59:785 00002525        RhodesService| handleCommand: startId=1, source=com.rhomobile.rhodes.BaseActivity
+I/APP     ( 9509): I 05/17/2016 13:33:59:792 0000256e RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     ( 9509): I 05/17/2016 13:33:59:818 00002525         AppCallbacks| addCommand: UI-CREATED
+I/APP     ( 9509): I 05/17/2016 13:33:59:818 00002525        GoogleWebView| Setting RhoWebChromeClient and RhoWebViewClient
+I/APP     ( 9509): I 05/17/2016 13:33:59:818 0000256d         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     ( 9509): I 05/17/2016 13:33:59:819 0000256d         AppCallbacks| m_uistate: 0
+I/APP     ( 9509): I 05/17/2016 13:33:59:819 0000256d         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     ( 9509): I 05/17/2016 13:33:59:819 0000256d         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 9509): I 05/17/2016 13:33:59:841 0000256e                   DB| Open DB: /data/data/com.rhomobile.rhogeolocation/rhodata/db/syncdbuser.sqlite
+I/APP     ( 9509): I 05/17/2016 13:33:59:901 00002525 ConnectionChangeReceiver| LOGGER: Network status change, connected = true
+I/APP     ( 9509): E 05/17/2016 13:33:59:901 00002525         RhodesAppJNI| nativeNotify
+I/APP     ( 9509): E 05/17/2016 13:33:59:901 00002525            RhodesApp| enter notifyReceiver
+I/APP     ( 9509): E 05/17/2016 13:33:59:901 00002525            RhodesApp| calling onNetworkStatusChanged
+I/APP     ( 9509): I 05/17/2016 13:33:59:901 00002525       RhodesActivity| New start parameters: 
+I/APP     ( 9509): I 05/17/2016 13:33:59:902 00002525            RhodesApp| New start params: 
+I/APP     ( 9509): I 05/17/2016 13:33:59:979 0000256e            RhodesApp| Starting sync engine...
+I/APP     ( 9509): I 05/17/2016 13:33:59:979 0000256e                 Sync| sync_poll_interval: 0
+I/APP     ( 9509): I 05/17/2016 13:33:59:979 0000256e                 Sync| syncserver: 
+I/APP     ( 9509): I 05/17/2016 13:33:59:979 0000256e                 Sync| bulksync_state: 0
+I/APP     ( 9509): I 05/17/2016 13:33:59:980 0000256e           HttpServer| Start HTTP server
+I/APP     ( 9509): I 05/17/2016 13:33:59:980 0000256e           HttpServer| Listen for connections on port 49800
+I/APP     ( 9509): I 05/17/2016 13:33:59:981 0000256e         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     ( 9509): I 05/17/2016 13:33:59:981 0000256d         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     ( 9509): I 05/17/2016 13:33:59:981 0000256d         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 9509): I 05/17/2016 13:33:59:983 00002573                 Sync| Starting main routine...
+I/APP     ( 9509): I 05/17/2016 13:33:59:984 00002573                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 9509): I 05/17/2016 13:33:59:984 0000256d        GoogleWebView| applyWebSettings
+I/APP     ( 9509): I 05/17/2016 13:33:59:984 0000256d        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     ( 9509): I 05/17/2016 13:33:59:989 0000256d  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     ( 9509): I 05/17/2016 13:33:59:989 0000256d  WebSettingsProvider| Allow universal access from file URL
+I/APP     ( 9509): I 05/17/2016 13:33:59:990 0000256d    RhodesApplication| Inside runwhen before return
+I/APP     ( 9509): I 05/17/2016 13:33:59:990 0000256d         AppCallbacks| addCommand: UI-CREATED
+I/APP     ( 9509): I 05/17/2016 13:33:59:990 0000256d    RhodesApplication| New AppState: AppActivated
+I/APP     ( 9509): I 05/17/2016 13:33:59:990 0000256d         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 9509): I 05/17/2016 13:33:59:991 0000256d    RhodesApplication| Inside runwhen before return
+I/APP     ( 9509): I 05/17/2016 13:33:59:991 0000256d         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 9509): I 05/17/2016 13:33:59:991 0000256d         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     ( 9509): I 05/17/2016 13:33:59:992 0000256d         AppCallbacks| m_uistate: 2
+I/APP     ( 9509): I 05/17/2016 13:33:59:992 0000256d         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 9509): I 05/17/2016 13:33:59:992 0000256d         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 9509): I 05/17/2016 13:34:00:061 00002525       SimpleMainView| Cleared URL: http://127.0.0.1:49800/public/index.html
+I/APP     ( 9509): I 05/17/2016 13:34:00:063 00002525     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     ( 9509): I 05/17/2016 13:34:00:191 00002525         MetaReceiver| QuitButton', 'Visibility:hidden'
+I/APP     ( 9509): I 05/17/2016 13:34:00:191 00002525         MetaReceiver| BackButton', 'Visibility:hidden'
+I/APP     ( 9509): I 05/17/2016 13:34:00:191 00002525         MetaReceiver| ForwardButton', 'Visibility:hidden'
+I/APP     ( 9509): I 05/17/2016 13:34:00:192 00002525         MetaReceiver| HomeButton', 'Visibility:hidden'
+I/APP     ( 9509): I 05/17/2016 13:34:00:192 00002525         MetaReceiver| ReloadButton', 'Visibility:hidden'
+I/APP     ( 9509): I 05/17/2016 13:34:00:192 00002525         MetaReceiver| ZoomTextButton', 'Visibility:hidden'
+I/APP     ( 9509): I 05/17/2016 13:34:00:192 00002525         MetaReceiver| SIPButton', 'Visibility:hidden'
+I/APP     ( 9509): I 05/17/2016 13:34:00:193 00002525         MetaReceiver| GoButton', 'Visibility:hidden'
+I/APP     ( 9509): I 05/17/2016 13:34:00:193 00002525         MetaReceiver| StopButton', 'Visibility:hidden'
+I/APP     ( 9509): I 05/17/2016 13:34:00:193 00002525         MetaReceiver| MinimizeButton', 'Visibility:hidden'
+I/APP     ( 9509): I 05/17/2016 13:34:00:194 00002525         MetaReceiver| AddressBar', 'top:50;visibility:hidden'
+I/APP     ( 9509): I 05/17/2016 13:34:00:194 00002525         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     ( 9509): I 05/17/2016 13:34:00:256 0000256e           HttpServer| Process URI: '/public/index.html'
+I/APP     ( 9509): I 05/17/2016 13:34:00:346 0000256e           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I/APP     ( 9509): I 05/17/2016 13:34:00:355 0000256e           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I/APP     ( 9509): I 05/17/2016 13:34:00:363 0000256e           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I/APP     ( 9509): I 05/17/2016 13:34:00:369 0000256e           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I/APP     ( 9509): I 05/17/2016 13:34:00:372 0000256e           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I/APP     ( 9509): I 05/17/2016 13:34:00:391 0000256e           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I/APP     ( 9509): I 05/17/2016 13:34:00:399 0000256e           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I/APP     ( 9509): I 05/17/2016 13:34:00:406 0000256e           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I/APP     ( 9509): I 05/17/2016 13:34:01:119 00002567               NewORM| calling useNewOrm
+I/APP     ( 9509): I 05/17/2016 13:34:25:683 00002525     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 9509): I 05/17/2016 13:34:25:684 00002525         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     ( 9509): I 05/17/2016 13:34:25:686 00002525     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     ( 9509): I 05/17/2016 13:34:25:691 00002700    RhodesApplication| Inside runwhen before return
+I/APP     ( 9509): I 05/17/2016 13:34:25:693 00002567         MetaReceiver| null', 'null'
+I/APP     ( 9509): I 05/17/2016 13:34:25:694 00002567         MetaReceiver| null', 'initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width'
+I/APP     ( 9509): I 05/17/2016 13:34:25:695 00002567         MetaReceiver| status', 'eom'
+I/APP     ( 9509): I 05/17/2016 13:38:07:400 00002525    RhodesApplication| New UiState: MainActivityPaused
+I/APP     ( 9509): I 05/17/2016 13:38:07:428 00002525    RhodesApplication| New AppState: AppDeactivated
+I/APP     ( 9509): I 05/17/2016 13:38:07:429 00002525        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     ( 9509): I 05/17/2016 13:38:07:429 00002525            RhodesApp| callAppActiveCallback
+I/APP     ( 9509): I 05/17/2016 13:38:07:429 00002525         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     ( 9509): I 05/17/2016 13:38:07:429 0000256d         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     ( 9509): I 05/17/2016 13:38:07:430 0000256d         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     ( 9509): I 05/17/2016 13:38:07:430 0000256d         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     ( 9509): I 05/17/2016 13:38:08:767 00002525         ButtonPlugin| onShutdown+
+I/APP     ( 9509): I 05/17/2016 13:38:08:768 00002525         ButtonPlugin| onShutdown+
+I/APP     ( 9509): I 05/17/2016 13:38:08:769 00002525         ButtonPlugin| onShutdown+
+I/APP     ( 9509): I 05/17/2016 13:38:08:769 00002525         ButtonPlugin| onShutdown+
+I/APP     ( 9509): I 05/17/2016 13:38:08:769 00002525         ButtonPlugin| onShutdown+
+I/APP     ( 9509): I 05/17/2016 13:38:08:770 00002525         ButtonPlugin| onShutdown+
+I/APP     ( 9509): I 05/17/2016 13:38:08:770 00002525         ButtonPlugin| onShutdown+
+I/APP     ( 9509): I 05/17/2016 13:38:08:770 00002525         ButtonPlugin| onShutdown+
+I/APP     ( 9509): I 05/17/2016 13:38:08:771 00002525         ButtonPlugin| onShutdown+
+I/APP     ( 9509): I 05/17/2016 13:38:08:771 00002525         ButtonPlugin| onShutdown+
+I/APP     ( 9509): I 05/17/2016 13:38:08:772 00002525         ButtonPlugin| onShutdown+
+I/APP     ( 9509): I 05/17/2016 13:38:08:781 00002525    RhodesApplication| New UiState: Undefined
+I/APP     (12655): I 05/17/2016 13:38:11:662 0000316f BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onCreateApplication
+I/APP     (12655): I 05/17/2016 13:38:11:665 0000316f    RhodesApplication| Initialized
+I/APP     (12655): I 05/17/2016 13:38:11:745 0000316f       RhodesActivity| Config path: /storage/emulated/0/Android/data/com.rhomobile.rhogeolocation/Config.xml
+I/APP     (12655): I 05/17/2016 13:38:11:745 0000316f       RhodesActivity| Loading Config.xml from /storage/emulated/0/Android/data/com.rhomobile.rhogeolocation/Config.xml
+I/APP     (12655): I 05/17/2016 13:38:11:892 0000316f         ElementsCore| RhoElements initializing...
+I/APP     (12655): I 05/17/2016 13:38:12:003 0000316f         ElementsCore| RhoElements initialized.
+I/APP     (12655): I 05/17/2016 13:38:12:005 0000316f    RhoExtManagerImpl| Creating Google web view !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+I/APP     (12655): I 05/17/2016 13:38:12:287 0000316f        GoogleWebView| Initialize Google WEbView staff
+I/APP     (12655): I 05/17/2016 13:38:12:295 0000316f        GoogleWebView| Adding new JS interface: __rhoNativeApi
+I/APP     (12655): I 05/17/2016 13:38:12:296 0000316f     WebViewSingleton| Set config initially: true
+I/APP     (12655): I 05/17/2016 13:38:12:296 0000316f        GoogleWebView| applyWebSettings
+I/APP     (12655): I 05/17/2016 13:38:12:297 0000316f        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (12655): I 05/17/2016 13:38:12:299 0000316f  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (12655): I 05/17/2016 13:38:12:302 0000316f  WebSettingsProvider| Allow universal access from file URL
+I/APP     (12655): I 05/17/2016 13:38:12:303 0000316f        GoogleWebView| Adding new JS interface: genericImpl
+I/APP     (12655): I 05/17/2016 13:38:12:311 0000316f        GoogleWebView| Adding new JS interface: apdImpl
+I/APP     (12655): I 05/17/2016 13:38:12:311 0000316f        GoogleWebView| Adding new JS interface: nosipImpl
+I/APP     (12655): I 05/17/2016 13:38:12:312 0000316f        GoogleWebView| Adding new JS interface: metaReceiver
+I/APP     (12655): I 05/17/2016 13:38:12:313 0000316f    RhodesApplication| New UiState: MainActivityCreated
+I/APP     (12655): I 05/17/2016 13:38:12:314 0000316f    RhodesApplication| New UiState: MainActivityStarted
+I/APP     (12655): I 05/17/2016 13:38:12:323 0000316f         SplashScreen| Process config: zoom
+I/APP     (12655): I 05/17/2016 13:38:12:323 0000316f         SplashScreen| Scale type: zoom
+I/APP     (12655): I 05/17/2016 13:38:12:324 0000316f         SplashScreen| Looking for start page source
+I/APP     (12655): I 05/17/2016 13:38:12:324 0000316f         SplashScreen| Loading image: apps/app/loading.png
+I/APP     (12655): I 05/17/2016 13:38:12:325 0000316f         SplashScreen| Specified splashscreen image is not found or supported. Setting the default splashscreen image.
+I/APP     (12655): I 05/17/2016 13:38:12:374 0000316f         SplashScreen| Done
+I/APP     (12655): I 05/17/2016 13:38:12:376 0000316f    RhodesApplication| New UiState: MainActivitiResumed
+I/APP     (12655): I 05/17/2016 13:38:12:378 0000316f BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume
+I/APP     (12655): I 05/17/2016 13:38:12:379 0000316f BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume--first resume
+I/APP     (12655): I 05/17/2016 13:38:12:407 0000316f BarcodeFactoryRhoListener| BarcodeFactoryRhoListener onResume-BarcodeFactory-DW-false created 
+I/APP     (12655): I 05/17/2016 13:38:12:421 0000316f    LocalFileProvider| Revoke URI permissions: content://com.rhomobile.rhogeolocation
+I/APP     (12655): I 05/17/2016 13:38:12:421 0000316f               Rhodes| Loading...
+I/APP     (12655): I 05/17/2016 13:38:12:422 0000316f            RhodesApp| Trying to get free listening port.
+I/APP     (12655): I 05/17/2016 13:38:12:422 0000316f            RhodesApp| Trying to bind of 0 port...
+I/APP     (12655): I 05/17/2016 13:38:12:422 0000316f            RhodesApp| Got port to bind on: 47634
+I/APP     (12655): I 05/17/2016 13:38:12:422 0000316f            RhodesApp| Free listening port: 47634
+I/APP     (12655): I 05/17/2016 13:38:12:423 000031ab         AppCallbacks| Starting main routine...
+I/APP     (12655): I 05/17/2016 13:38:12:424 000031ab         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (12655): I 05/17/2016 13:38:12:434 0000316f            RhodesApp| callAppActiveCallback
+I/APP     (12655): I 05/17/2016 13:38:12:435 0000316f         AppCallbacks| addCommand: APP-ACTIVATED
+I/APP     (12655): I 05/17/2016 13:38:12:435 000031ac            RhodesApp| Starting RhodesApp main routine...
+I/APP     (12655): I 05/17/2016 13:38:12:435 000031ac            RhodesApp| Starting pure JS application...
+I/APP     (12655): I 05/17/2016 13:38:12:435 000031ab         AppCallbacks| APP-ACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (12655): I 05/17/2016 13:38:12:435 000031ac            RhodesApp| Init_RhoBlobs:/data/data/com.rhomobile.rhogeolocation/rhodata/db/db-files
+I/APP     (12655): I 05/17/2016 13:38:12:435 000031ab         AppCallbacks| Received command APP-ACTIVATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (12655): I 05/17/2016 13:38:12:435 000031ab         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (12655): I 05/17/2016 13:38:12:436 0000316f         AppActivated| Cannot commit now, application will be activated when started.
+I/APP     (12655): I 05/17/2016 13:38:12:436 0000316f    RhodesApplication| New AppState: Undefined
+I/APP     (12655): I 05/17/2016 13:38:12:436 0000316f        RhodesService| handleCommand: startId=1, source=com.rhomobile.rhodes.BaseActivity
+I/APP     (12655): I 05/17/2016 13:38:12:442 000031ac RhoconnectClientManager| setRhoconnectClientImpl ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+I/APP     (12655): I 05/17/2016 13:38:12:466 0000316f         AppCallbacks| addCommand: UI-CREATED
+I/APP     (12655): I 05/17/2016 13:38:12:467 000031ab         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (12655): I 05/17/2016 13:38:12:467 000031ab         AppCallbacks| m_uistate: 0
+I/APP     (12655): I 05/17/2016 13:38:12:467 000031ab         AppCallbacks| Received command UI-CREATED which is greater than expected (LOCAL-SERVER-STARTED) - postpone it
+I/APP     (12655): I 05/17/2016 13:38:12:467 000031ab         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (12655): I 05/17/2016 13:38:12:467 0000316f        GoogleWebView| Setting RhoWebChromeClient and RhoWebViewClient
+I/APP     (12655): I 05/17/2016 13:38:12:470 000031ac                   DB| Open DB: /data/data/com.rhomobile.rhogeolocation/rhodata/db/syncdbuser.sqlite
+I/APP     (12655): I 05/17/2016 13:38:12:475 000031ac            RhodesApp| Starting sync engine...
+I/APP     (12655): I 05/17/2016 13:38:12:475 000031ac                 Sync| sync_poll_interval: 0
+I/APP     (12655): I 05/17/2016 13:38:12:475 000031ac                 Sync| syncserver: 
+I/APP     (12655): I 05/17/2016 13:38:12:475 000031ac                 Sync| bulksync_state: 0
+I/APP     (12655): I 05/17/2016 13:38:12:476 000031ac           HttpServer| Start HTTP server
+I/APP     (12655): I 05/17/2016 13:38:12:476 000031ac           HttpServer| Listen for connections on port 47634
+I/APP     (12655): I 05/17/2016 13:38:12:476 000031ac         AppCallbacks| addCommand: LOCAL-SERVER-STARTED
+I/APP     (12655): I 05/17/2016 13:38:12:476 000031ab         AppCallbacks| LOCAL-SERVER-STARTED is received ++++++++++++++++++++++++++++
+I/APP     (12655): I 05/17/2016 13:38:12:476 000031ab         AppCallbacks| process command: LOCAL-SERVER-STARTED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (12655): I 05/17/2016 13:38:12:478 000031ab        GoogleWebView| applyWebSettings
+I/APP     (12655): I 05/17/2016 13:38:12:478 000031ab        GoogleWebView| Web settings is applying now  >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+I/APP     (12655): I 05/17/2016 13:38:12:479 000031b0                 Sync| Starting main routine...
+I/APP     (12655): I 05/17/2016 13:38:12:482 000031ab  WebSettingsProvider| Set web plugins state 'ON'
+I/APP     (12655): I 05/17/2016 13:38:12:483 000031ab  WebSettingsProvider| Allow universal access from file URL
+I/APP     (12655): I 05/17/2016 13:38:12:483 000031ab    RhodesApplication| Inside runwhen before return
+I/APP     (12655): I 05/17/2016 13:38:12:483 000031ab         AppCallbacks| addCommand: UI-CREATED
+I/APP     (12655): I 05/17/2016 13:38:12:483 000031ab    RhodesApplication| New AppState: AppActivated
+I/APP     (12655): I 05/17/2016 13:38:12:483 000031ab         AppCallbacks| process command: UI-CREATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (12655): I 05/17/2016 13:38:12:484 000031ab    RhodesApplication| Inside runwhen before return
+I/APP     (12655): I 05/17/2016 13:38:12:485 000031ab         AppCallbacks| process command: APP-ACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (12655): I 05/17/2016 13:38:12:485 000031ab         AppCallbacks| UI-CREATED is received ++++++++++++++++++++++++++++
+I/APP     (12655): I 05/17/2016 13:38:12:485 000031ab         AppCallbacks| m_uistate: 2
+I/APP     (12655): I 05/17/2016 13:38:12:485 000031ab         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (12655): I 05/17/2016 13:38:12:485 000031ab         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (12655): I 05/17/2016 13:38:12:483 000031b0                 Sync| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (12655): I 05/17/2016 13:38:12:544 0000316f ConnectionChangeReceiver| LOGGER: Network status change, connected = true
+I/APP     (12655): E 05/17/2016 13:38:12:545 0000316f         RhodesAppJNI| nativeNotify
+I/APP     (12655): E 05/17/2016 13:38:12:545 0000316f            RhodesApp| enter notifyReceiver
+I/APP     (12655): E 05/17/2016 13:38:12:545 0000316f            RhodesApp| calling onNetworkStatusChanged
+I/APP     (12655): I 05/17/2016 13:38:12:546 0000316f       RhodesActivity| New start parameters: ?profile=0
+I/APP     (12655): I 05/17/2016 13:38:12:546 0000316f            RhodesApp| New start params: ?profile=0
+I/APP     (12655): I 05/17/2016 13:38:12:597 0000316f       SimpleMainView| Cleared URL: http://127.0.0.1:47634/public/index.html
+I/APP     (12655): I 05/17/2016 13:38:12:599 0000316f     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (12655): I 05/17/2016 13:38:12:711 000031ac           HttpServer| Process URI: '/public/index.html'
+I/APP     (12655): I 05/17/2016 13:38:12:730 0000316f         MetaReceiver| QuitButton', 'Visibility:hidden'
+I/APP     (12655): I 05/17/2016 13:38:12:731 0000316f         MetaReceiver| BackButton', 'Visibility:hidden'
+I/APP     (12655): I 05/17/2016 13:38:12:731 0000316f         MetaReceiver| ForwardButton', 'Visibility:hidden'
+I/APP     (12655): I 05/17/2016 13:38:12:731 0000316f         MetaReceiver| HomeButton', 'Visibility:hidden'
+I/APP     (12655): I 05/17/2016 13:38:12:731 0000316f         MetaReceiver| ReloadButton', 'Visibility:hidden'
+I/APP     (12655): I 05/17/2016 13:38:12:732 0000316f         MetaReceiver| ZoomTextButton', 'Visibility:hidden'
+I/APP     (12655): I 05/17/2016 13:38:12:732 0000316f         MetaReceiver| SIPButton', 'Visibility:hidden'
+I/APP     (12655): I 05/17/2016 13:38:12:733 0000316f         MetaReceiver| GoButton', 'Visibility:hidden'
+I/APP     (12655): I 05/17/2016 13:38:12:733 0000316f         MetaReceiver| StopButton', 'Visibility:hidden'
+I/APP     (12655): I 05/17/2016 13:38:12:734 0000316f         MetaReceiver| MinimizeButton', 'Visibility:hidden'
+I/APP     (12655): I 05/17/2016 13:38:12:735 0000316f         MetaReceiver| AddressBar', 'top:50;visibility:hidden'
+I/APP     (12655): I 05/17/2016 13:38:12:735 0000316f         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (12655): I 05/17/2016 13:38:12:837 000031ac           HttpServer| Process URI: '/public/jquery/jquery-1.9.1.min.js'
+I/APP     (12655): I 05/17/2016 13:38:12:845 000031ac           HttpServer| Process URI: '/public/js/jquery.json.min.js'
+I/APP     (12655): I 05/17/2016 13:38:12:863 000031ac           HttpServer| Process URI: '/public/js/rho_javascript_api.js'
+I/APP     (12655): I 05/17/2016 13:38:12:871 000031ac           HttpServer| Process URI: '/public/js/rho_common_api_noconflict.js'
+I/APP     (12655): I 05/17/2016 13:38:12:880 000031ac           HttpServer| Process URI: '/public/api/rhoapi-modules.js'
+I/APP     (12655): I 05/17/2016 13:38:12:891 000031ac           HttpServer| Process URI: '/public/api/rhoapi-modules-ORMHelper.js'
+I/APP     (12655): I 05/17/2016 13:38:12:895 000031ac           HttpServer| Process URI: '/public/api/rhoapi-modules-ORM.js'
+I/APP     (12655): I 05/17/2016 13:38:12:903 000031ac           HttpServer| Process URI: '/public/api/rhoapi-modules-Ruby-RunTime.js'
+I/APP     (12655): I 05/17/2016 13:38:13:556 000031a6               NewORM| calling useNewOrm
+I/APP     (12655): I 05/17/2016 13:38:37:510 0000316f     WebViewSingleton| onNavigateComplete <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (12655): I 05/17/2016 13:38:37:511 0000316f         MetaReceiver| SettingsButton', 'Visibility:hidden'
+I/APP     (12655): I 05/17/2016 13:38:37:512 0000316f     WebViewSingleton| onBeforeNavigate ------------------------------------------------------------
+I/APP     (12655): I 05/17/2016 13:38:37:524 00003322    RhodesApplication| Inside runwhen before return
+I/APP     (12655): I 05/17/2016 13:38:37:531 000031a6         MetaReceiver| null', 'null'
+I/APP     (12655): I 05/17/2016 13:38:37:533 000031a6         MetaReceiver| null', 'initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width'
+I/APP     (12655): I 05/17/2016 13:38:37:536 000031a6         MetaReceiver| status', 'eom'
+I/APP     (12655): I 05/17/2016 13:39:06:333 0000316f   RhoWebChromeClient| Uncaught ReferenceError: marker is not defined -- From line 122 of http://127.0.0.1:47634/public/index.html
+I/APP     (12655): I 05/17/2016 13:39:08:555 0000316f   RhoWebChromeClient| Uncaught ReferenceError: marker is not defined -- From line 122 of http://127.0.0.1:47634/public/index.html
+I/APP     (12655): I 05/17/2016 13:39:45:115 0000316f    RhodesApplication| New UiState: MainActivityPaused
+I/APP     (12655): I 05/17/2016 13:39:45:143 0000316f    RhodesApplication| New AppState: AppDeactivated
+I/APP     (12655): I 05/17/2016 13:39:45:145 0000316f        RhodesService| activityStopped() temporary release wakeLock object
+I/APP     (12655): I 05/17/2016 13:39:45:145 0000316f            RhodesApp| callAppActiveCallback
+I/APP     (12655): I 05/17/2016 13:39:45:146 0000316f         AppCallbacks| addCommand: APP-DEACTIVATED
+I/APP     (12655): I 05/17/2016 13:39:45:146 000031ab         AppCallbacks| APP-DEACTIVATED is received ++++++++++++++++++++++++++++
+I/APP     (12655): I 05/17/2016 13:39:45:146 000031ab         AppCallbacks| process command: APP-DEACTIVATED<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+I/APP     (12655): I 05/17/2016 13:39:45:147 000031ab         AppCallbacks| ThreadQueue blocked for 4294967295 seconds...
+I/APP     (12655): I 05/17/2016 13:39:46:616 0000316f         ButtonPlugin| onShutdown+
+I/APP     (12655): I 05/17/2016 13:39:46:617 0000316f         ButtonPlugin| onShutdown+
+I/APP     (12655): I 05/17/2016 13:39:46:618 0000316f         ButtonPlugin| onShutdown+
+I/APP     (12655): I 05/17/2016 13:39:46:618 0000316f         ButtonPlugin| onShutdown+
+I/APP     (12655): I 05/17/2016 13:39:46:619 0000316f         ButtonPlugin| onShutdown+
+I/APP     (12655): I 05/17/2016 13:39:46:619 0000316f         ButtonPlugin| onShutdown+
+I/APP     (12655): I 05/17/2016 13:39:46:620 0000316f         ButtonPlugin| onShutdown+
+I/APP     (12655): I 05/17/2016 13:39:46:622 0000316f         ButtonPlugin| onShutdown+
+I/APP     (12655): I 05/17/2016 13:39:46:622 0000316f         ButtonPlugin| onShutdown+
+I/APP     (12655): I 05/17/2016 13:39:46:623 0000316f         ButtonPlugin| onShutdown+
+I/APP     (12655): I 05/17/2016 13:39:46:624 0000316f         ButtonPlugin| onShutdown+
+I/APP     (12655): I 05/17/2016 13:39:46:628 0000316f    RhodesApplication| New UiState: Undefined

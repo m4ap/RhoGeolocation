@@ -1,0 +1,43 @@
+sdkversion: "5.4.0"
+name: "RhoGeolocation"
+javascript_application: true
+version: "1.0"
+vendor: "rhomobile"
+build: "debug"
+applog: "rholog.txt"
+iphone:
+  configuration: "Release"
+  sdk: "iphonesimulator9.2"
+  provisionprofile: 
+  codesignidentity: "iPhone Developer"
+  entitlements: 
+  BundleIdentifier: "com.rhomobile.rhogeolocation"
+  BundleURLScheme: "rhogeolocation"
+  production:
+    ipa_itunesartwork_image: "./production/iTunesArtwork.png"
+wp8:
+  productid: "2657add0-ea83-0133-1671-38ac6fa41925"
+android:
+  version: "4.1.0"
+  logcatFilter: "APP:I StrictMode:I DEBUG:I *:E"
+wm: 
+win32:
+  deployqt: "1"
+  deploymsvc: "1"
+rhobundle:
+  exclude_items:
+    - thumb.db
+app_type: "rhoelements"
+extensions:
+  - screenorientation
+  - coreapi
+  - rhoconnect-client
+  - rho-javascript
+  - json
+capabilities:
+  - calendar
+  - network_state
+  - Network
+  - sdcard
+  - gps
+  - motorola_browser
