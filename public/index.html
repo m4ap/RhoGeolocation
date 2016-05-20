@@ -58,6 +58,7 @@
 		}
 	}
 	
+	// Error handling mechanism.
 	function errorHandler( err ) {
 	   if (err.code == 0) {
 			alert("Access denied");
@@ -117,7 +118,8 @@
 		marker.addListener('click', toggleBounce);
 	}
 	
-	// Marker animation
+	// Marker animation.
+	// NOTe : Does not seem to work
 	function toggleBounce() {
 	  if (marker.getAnimation() !== null) {
 		marker.setAnimation(null);
@@ -125,72 +127,16 @@
 		marker.setAnimation(google.maps.Animation.BOUNCE);
 	  }
 	}
-	
-	//function getKnownPosition(){	
-		//var knowPos = Rho.GeoLocation.is_known_position();
-		//alert("KNown position" + knowPos);
-		
-		//alert("KNown position" + JSON.stringify(knowPos));
-	//}
-	
-	//function getLatLong(){
-	
-		//var lat = Rho.GeoLocation.latitude();
-		//var longitude = Rho.GeoLocation.longitude();
-		
-		//alert("Latitide " + lat + "Longitide " + longitude);
-		
-		//alert("Latitide " + JSON.stringify(lat) + "Longitide " + JSON.stringify(longitude));
-	//}
-	
-	//function createMap(){
-	
-		//var map_params = {
-			//provider: 'Google',
-		  //settings: {
-			//map_type: 'hybrid',
-			//region: [@params['latitude'], @params['longitude'], 0.2, 0.2],
-			//zoom_enabled: true,
-			//scroll_enabled: true,
-			//shows_user_location: false,
-			//api_key: 'AIzaSyD3f3hm3UFrX6jWK15QG4hXwWaDtYJiW-s'
-			//}, 
-		 // annotations: [
-			//{latitude: @params['latitude'], longitude: @params['longitude'], title: "Current location", subtitle: ""},
-			//{street_address: "Cupertino, CA 95014", title: "Cupertino", subtitle: "zip: 95014", url: "/app/GeoLocation/show?city=Cupertino"},
-			//{street_address: "Santa Clara, CA 95051", title: "Santa Clara", subtitle: "zip: 95051", url: "/app/GeoLocation/show?city=Santa%20Clara"}
-			//]
-			//};
-		//Rho.MapView.create(map_params);
-	//}
-	
-	
-	
-
-	
-	//function checkGeolocationSupport(){
-		//console.log(Rho.GeoLocation);
-		//console.log(JSON.stringify(Rho.GeoLocation));
-	//}
-   
   </script>   
 
   
  </head>
  <body>    
-  <!-- <button onclick = "getAccuracy()">Check GPS accuracy</button>   -->
-  <!-- <button onclick = "getKnownPosition()">Get Known position</button> -->
-  <!-- <button onclick = "getLatLong()">Get Latitude & Longitude</button> -->
   <div id="map"></div>
-  <!-- <button onclick="getLocation()" id="button">Get Location and Create Map</button> -->
   <button onclick="setMarker()">Set Marker </button>
   <div id="latLongDiv">
 	  <label> Latitude  :</label> <p id="latitudeP"></p>
 	  <label> Longitude :</label><p id="longitudeP"></p>
   </div>
-  <!-- <button onclick="createMap()">Create Map</button> -->
-  
-  <!-- <button onclick="checkGeolocationSupport()">Check Geolocation object</button> -->
-  
    </body>
 </html>
