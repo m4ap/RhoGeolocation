@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">  
+  <!--Rhomobile Script for ORM model (Database)-->
+  
+  <script type="text/javascript" src="../public/jquery/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="../public/js/jquery.json.min.js"></script>  
+  
+  <script type="text/javascript" src="../public/js/rho_javascript_api.js"></script> 
+  <script type="text/javascript" src="../public/js/rho_common_api_noconflict.js"></script> 
+  
+  <script type="text/javascript" src="../public/api/rhoapi-modules.js"></script>  
+  <script type="text/javascript" src="../public/api/rhoapi-modules-ORMHelper.js"></script>
+  <script type="text/javascript" src="../public/api/rhoapi-modules-ORM.js"></script>
+  
+  
+  <script type="text/javascript" src="../public/api/rhoapi-modules-Ruby-RunTime.js"></script> 
+  
+  
+  
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3f3hm3UFrX6jWK15QG4hXwWaDtYJiW-s&callback=getLocation"
+    async defer></script>
+	
+<!-- 	<script type="text/javascript"
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD3f3hm3UFrX6jWK15QG4hXwWaDtYJiW-s&libraries=geometry,places">
+</script> -->
+  
+<style type="text/css">
+  html, body { height: 100%; margin: 0; padding: 0; }
+  #map { height: 50%; width: 80%;margin-left: 10%;}
+  button {margin-left: 35%;margin-top: 10%;}
+  #latLongDiv {display: list-item;}
+</style>
+  
+  <!--Rhomobile Script for ORM model (Database)-->  
+  
+  <script "text/javascript"> 
+  
+  var latitude = 0;
+  var longitude = 0;
+  
+	//function initMap() {
+        //map = new google.maps.Map(document.getElementById('map'), {
+         // center: {lat: -34.397, lng: 150.644},
+         // zoom: 8
+        //});
+     //}
+  
+	// This method will be called as part of the callback from the below URL
+	// https://maps.googleapis.com/maps/api/js?key=AIzaSyD3f3hm3UFrX6jWK15QG4hXwWaDtYJiW-s&callback=getLocation defined in script tag.
+  	function getLocation() {
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(showPosition , errorHandler , {maximumAge: 75000 , enableHighAccuracy: true});
+		} else { 
+			alert("Geolocation is not supported by this browser.");
+		}
+	}
+	
+	function errorHandler( err ) {
+	   if (err.code == 0) {
+			alert("Access denied");
+	   }
+	   else if(err.code == 1){
+			alert("Permission denied");
+	   }
+	   else if(err.code == 2){
+			alert("Position unavailable");
+	   }
+	   else{
+			alert("Timeout getting location");
+	   }
+	}
+
+	// Zoom the map with current position as the center of the map.
+	function showPosition(position) {	
+	
+		latitude = position.coords.latitude;
+		longitude = position.coords.longitude;
+		
+		document.getElementById('latitudeP').innerHTML = position.coords.latitude;
+		document.getElementById('longitudeP').innerHTML = position.coords.longitude;
+		
+		map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: position.coords.latitude, lng: position.coords.longitude},
+          zoom: 18
+        });
+		
+		//alert("Latitude : " + position.coords.latitude + "Longitude ::" + position.coords.longitude);
+	}
+	
+	// Set the marker on the current position.
+	function setMarker(){
+	
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(showMarker , errorHandler , {maximumAge: 75000 , enableHighAccuracy: true});
+		} else { 
+			alert("Geolocation is not supported by this browser.");
+		}		
+	}
+	
+	// Get marker position based on latitude and longitude.
+	function showMarker(position){
+	
+		var myLatLng = {lat: position.coords.latitude, lng: position.coords.longitude};
+		
+		document.getElementById('latitudeP').innerHTML = position.coords.latitude;
+		document.getElementById('longitudeP').innerHTML = position.coords.longitude;
+	
+		var marker = new google.maps.Marker({
+			position: myLatLng,
+			map: map,
+			title: 'My custom Map!'
+		});
+		
+		marker.addListener('click', toggleBounce);
+	}
+	
+	// Marker animation
+	function toggleBounce() {
+	  if (marker.getAnimation() !== null) {
+		marker.setAnimation(null);
+	  } else {
+		marker.setAnimation(google.maps.Animation.BOUNCE);
+	  }
+	}
+	
+	//function getKnownPosition(){	
+		//var knowPos = Rho.GeoLocation.is_known_position();
+		//alert("KNown position" + knowPos);
+		
+		//alert("KNown position" + JSON.stringify(knowPos));
+	//}
+	
+	//function getLatLong(){
+	
+		//var lat = Rho.GeoLocation.latitude();
+		//var longitude = Rho.GeoLocation.longitude();
+		
+		//alert("Latitide " + lat + "Longitide " + longitude);
+		
+		//alert("Latitide " + JSON.stringify(lat) + "Longitide " + JSON.stringify(longitude));
+	//}
+	
+	//function createMap(){
+	
+		//var map_params = {
+			//provider: 'Google',
+		  //settings: {
+			//map_type: 'hybrid',
+			//region: [@params['latitude'], @params['longitude'], 0.2, 0.2],
+			//zoom_enabled: true,
+			//scroll_enabled: true,
+			//shows_user_location: false,
+			//api_key: 'AIzaSyD3f3hm3UFrX6jWK15QG4hXwWaDtYJiW-s'
+			//}, 
+		 // annotations: [
+			//{latitude: @params['latitude'], longitude: @params['longitude'], title: "Current location", subtitle: ""},
+			//{street_address: "Cupertino, CA 95014", title: "Cupertino", subtitle: "zip: 95014", url: "/app/GeoLocation/show?city=Cupertino"},
+			//{street_address: "Santa Clara, CA 95051", title: "Santa Clara", subtitle: "zip: 95051", url: "/app/GeoLocation/show?city=Santa%20Clara"}
+			//]
+			//};
+		//Rho.MapView.create(map_params);
+	//}
+	
+	
+	
+
+	
+	//function checkGeolocationSupport(){
+		//console.log(Rho.GeoLocation);
+		//console.log(JSON.stringify(Rho.GeoLocation));
+	//}
+   
+  </script>   
+
+  
+ </head>
+ <body>    
+  <!-- <button onclick = "getAccuracy()">Check GPS accuracy</button>   -->
+  <!-- <button onclick = "getKnownPosition()">Get Known position</button> -->
+  <!-- <button onclick = "getLatLong()">Get Latitude & Longitude</button> -->
+  <div id="map"></div>
+  <!-- <button onclick="getLocation()" id="button">Get Location and Create Map</button> -->
+  <button onclick="setMarker()">Set Marker </button>
+  <div id="latLongDiv">
+	  <label> Latitude  :</label> <p id="latitudeP"></p>
+	  <label> Longitude :</label><p id="longitudeP"></p>
+  </div>
+  <!-- <button onclick="createMap()">Create Map</button> -->
+  
+  <!-- <button onclick="checkGeolocationSupport()">Check Geolocation object</button> -->
+  
+   </body>
+</html>
